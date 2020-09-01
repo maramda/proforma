@@ -51,11 +51,11 @@
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-store-alt"></i>
-                        <span>Produits</span>
+                        <span>Actualite</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="listesproduits.php">Listes Produits</a></li>
-                        <li><a href="Ajouterproduct.php">Ajouter Produits</a></li>
+                        <li><a href="listeactualite.php">Listes Actualite</a></li>
+                        <li><a href="ajouteractualite.php">Ajouter Actualite</a></li>
                         
                     </ul>
                 </li>
@@ -64,11 +64,11 @@
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-map-alt"></i>
-                        <span>Coordonnee Contact</span>
+                        <span>Entreprise</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="listescoordonnee.php">Listes Contact</a></li>
-                        <li><a href="Ajoutercoordonnee.php">Ajouter Contact</a></li>
+                        <li><a href="listeentreprise.php">Listes Entreprise</a></li>
+                        <li><a href="ajouterentreprise.php">Ajouter Entreprise</a></li>
                         
                     </ul>
                 </li>
@@ -77,32 +77,58 @@
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-table"></i>
-                        <span>Recette</span>
+                        <span>Etudiant</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="listesrecette.php">listes  Recette</a></li>
-                        <li><a href="ajouterrecette.php">Ajouter  Recette</a></li>
+                        <li><a href="listeetudiant.php">listes  Etudiant</a></li>
+                        <li><a href="ajouteretudiant.php">Ajouter  Etudiant</a></li>
                         
                         
                     </ul>
                 </li>
+
+               
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bx-table"></i>
+                        <span>Formateur</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="listeformateur.php">listes  Formateur</a></li>
+                        <li><a href="ajouterformateur.php">Ajouter  Formateur</a></li>
+                        
+                        
+                    </ul>
+                </li>
+
+
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="bx bx-file"></i>
-                        <span>Pages</span>
+                        <i class="bx bx-table"></i>
+                        <span>Formation</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="listes.php">Listes Savez_vous</a></li>
-                    <li><a href="ajoutersavezvous.php">Ajouter Savez vous</a></li>
-                    <li><a href="listesqsn.php">Listes Qui_somme_nous</a></li>
+                        <li><a href="listeformation.php">listes  Formation</a></li>
+                        <li><a href="ajouterformation.php">Ajouter  Formation</a></li>
                         
-                        <li><a href="Ajouterqui_somme_nous.php">Ajouter Qui somme nous</a></li>
                         
                     </ul>
                 </li>
 
-                
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bx-table"></i>
+                        <span>Gallary</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="listegallary.php">listes  Gallary</a></li>
+                        <li><a href="ajoutergallary.php">Ajouter  Gallary</a></li>
+                        
+                        
+                    </ul>
+                </li>
 
 
              
