@@ -1,0 +1,44 @@
+<html>
+<head><style type="text/css" media="screen">
+.box {
+  width: 900px;
+  height: 500px;
+  max-width: 100%;
+  background: var(--bg2);
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-size: 2rem;}
+
+
+.box-1 {
+  border: 20px solid;
+  border-image-source:url(image.jpg);
+  border-image-slice: 1;;
+ 
+}
+</style>
+<link rel="stylesheet" href="c1.css" />
+</head>
+<body>
+<center><div class="box box-1">
+
+<form action="inscri.py" method="post" >
+Welcome! 😄 <p>
+<fieldset>
+ <legend> Connectez-vous : </legend>
+   <label for="email">Votre email :</label><p>
+   <input type="email" name="email" size="20" 
+   maxlength="40"  id="email"  /><p>
+    <label for="pass">Votre mot de passe:</label><p>
+    <input type="password" id="pass" name="password"
+            required>
+</fieldset>
+
+
+ <input type="submit" value="Envoyer" style="width:150px" />
+ <input type="reset" value="Annuler" style="width:150px" />
+ </p>
+
+</form></div></center></body></html>

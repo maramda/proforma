@@ -1,0 +1,65 @@
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:90%;
+ }
+form {
+ background-color:#FAFAFA;
+ padding:10px;
+ margin: 0 auto 0 auto;
+ width:900px;
+ height:500px;
+
+div.left { float:left; }
+
+div.right { float:right; }
+
+div#bottom { clear:both; }
+ }
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:2px solid #DF3F3F;
+div.left {
+     width: 50%;
+     float: left;
+     }
+
+
+ div.right {
+     width: 50%;
+     float: left;
+     }
+     }
+ 
+legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+input, textarea, select {
+ padding:4px;
+ border:2px solid #F5C5C5;
+ border-radius:5px;
+ width:300px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ }
+
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:6px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
