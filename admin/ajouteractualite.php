@@ -88,10 +88,10 @@ header('Location:login.php');
                                         
 
 		
-                                        <form action="Controller/ajouteractualite.php" method="post">
+   <form action="Controller/ajouter_actualite.php" method="post">
                      
 									
-            
+          
                                         
                 
             <div class="form-group">
@@ -102,19 +102,19 @@ header('Location:login.php');
 
             <div class="form-group">
                 <label for="description">Description</label>
-                <input type="password" class="form-control" id="description" name="description"  
+                <input type="text" class="form-control" id="description" name="description"  
                 placeholder="Saisissez la description" >        
             </div>
 
-            <div class="form-group">
+           <div class="form-group">
               <figure>
                 <label for="image">Image</label>
-                <img  class="form-control"  src="image" alt="" > 
+                <input type="file" name="lien" id="lien"> 
               </figure>       
             </div>
 
             <div class="mt-4">
-                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Ajouter</button>
+                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit" name="submit">Ajouter</button>
             </div>
 
             
