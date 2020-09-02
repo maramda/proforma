@@ -1,6 +1,6 @@
 <?php
 include("includes/connect.php");
-$req = $bdd->query("SELECT * FROM site");
+$req = $bdd->query("SELECT * FROM proforma");
 $donnees = $req->fetch();
  ?>
 <!doctype html>
@@ -74,7 +74,7 @@ $donnees = $req->fetch();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>   </button>
                 <!-- Logo -->
-                 <a class="navbar-brand" href="#page-top"><img src="images/10874.png" class="img-responsive" alt="logo" />
+                 <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
                     <div class="logo-title"></div>
                 </a>
 
