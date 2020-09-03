@@ -1,6 +1,6 @@
 <?php
 include("includes/connect.php");
-$req = $bdd->query("SELECT * FROM proforma");
+$req = $bdd->query("SELECT * FROM info");
 $donnees = $req->fetch();
  ?>
 <!doctype html>
@@ -74,9 +74,9 @@ $donnees = $req->fetch();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>   </button>
                 <!-- Logo -->
-                 <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
+                <!-- <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
                     <div class="logo-title"></div>
-                </a>
+                </a>-->
 
                 <!-- Logo end -->
             </div>
@@ -86,13 +86,14 @@ $donnees = $req->fetch();
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#section-home" class="page-scroll">Acceuil</a></li>
 					                    <li><a class="page-scroll" href="#section-about">A propos</a></li>
-                                        <li><a class="page-scroll" href="#section-course">Actualité</a></li>
-                                        <li><a class="page-scroll" href="#section-portfolio">Etudiant</a></li>
+                                        <li><a class="page-scroll" href="#section-actualite">Actualité</a></li>
+                                        <li><a class="page-scroll" href="#section-etudiant">Etudiant</a></li>
                                         <li><a class="page-scroll" href="#section-testimonial">Entreprise</a></li>
                                         <li><a class="page-scroll" href="#section-contact">Formateur</a></li>
-                                        <li><button type="button" class="btn btn-success btn-lg">
+                                        <li><a class="page-scroll" href="#section-contact">Formation</a></li>
+                                       <!-- <li><button type="button" class="btn btn-success btn-lg">
                                         <a  href="signup.php">Inscription</a>
-                                        </button></li>
+                                        </button></li>-->
 
                 </ul>
             </div><!-- End navigation links -->
@@ -111,7 +112,7 @@ $donnees = $req->fetch();
                         <h1 class="cd-headline clip is-full-width">
                             <span>I'm </span>
                             <span class="cd-words-wrapper">
-                                <b class="is-visible"><?php echo $donnees['name']; ?></b>
+                                <b class="is-visible"><?php echo $donnees['nom']; ?></b>
                                 <b>a web designer.</b>
                                 <b>a Graphics Designer.</b>
 								<b>a Brand Creator.</b>                            </span>  </h1>
@@ -160,7 +161,7 @@ $donnees = $req->fetch();
 	    <!-- section about end -->
 
     <!--  section services start -->
-	    <section id="section-course" class="section-padding">
+	    <section id="section-actualite" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -216,21 +217,20 @@ $donnees = $req->fetch();
 	    <!--  section services end -->
 
      <!-- start portfolio area -->
-	     <section id="section-portfolio" class="work section-padding">
+	   <!--  <section id="section-portfolio" class="work section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-heading">
-                        <h2>PORTFOLIO
-</h2>
+                        <h2>PORTFOLIO</h2>
                     </div>
                 </div>
             </div>
            			
             <div class="work-inner">
-                <div class="row work-posts">
+                <div class="row work-posts">-->
                     <!-- single work area-->
-					                    <div class="col-md-4 col-sm-4 mix web graphics development">
+					                   <!-- <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
                             <a href="images/portfolio/1494839551.jpg" class="work-popup">
                                 <img src="images/portfolio/1494839551.jpg" alt="">
@@ -238,9 +238,9 @@ $donnees = $req->fetch();
                                     <h4>photography</h4>
                                 </div>
                             </a>                        </div>
-                    </div>
+                    </div>-->
                     <!-- end single work area -->
-					                    <div class="col-md-4 col-sm-4 mix web graphics development">
+					                   <!-- <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
                             <a href="images/portfolio/1494840661.jpg" class="work-popup">
                                 <img src="images/portfolio/1494840661.jpg" alt="">
@@ -248,9 +248,9 @@ $donnees = $req->fetch();
                                     <h4>graphics</h4>
                                 </div>
                             </a>                        </div>
-                    </div>
+                    </div>-->
                     <!-- end single work area -->
-					                    <div class="col-md-4 col-sm-4 mix web graphics development">
+					                 <!--   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
                             <a href="images/portfolio/1514120121.jpg" class="work-popup">
                                 <img src="images/portfolio/1514120121.jpg" alt="">
@@ -258,14 +258,65 @@ $donnees = $req->fetch();
                                     <h4>Creative kids</h4>
                                 </div>
                             </a>                        </div>
-                    </div>
+                    </div>-->
                     <!-- end single work area -->
 															
-                </div>
+               <!-- </div>
             </div>
         </div>
-    </section>
+    </section>-->
 	    <!-- / end start work area -->
+
+
+  <!--  section services start -->
+  <section id="section-etudiant" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2><p>What I Offer</p>
+</h2> </div>
+                </div>
+            </div>
+            <!--  row end -->
+            <div class="row">
+            <div class="col-md-10 col-md-offset-1 henry-contact-form">
+                    <div class="henry-contact-form">
+                        <div class="col-md-7 henry-form">
+                            <div class="henry-form-area">
+                                <div class="henry-form">
+                                    <h2>Get in touch</h2>
+									                                </div>
+                              
+                                <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="name"  class="form-control" required="required" placeholder="Full Name">
+										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="phone">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="message" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="MESSAGE" required="required"></textarea>
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Send</button>
+                                </form>
+                            </div>
+                        </div>
+            <!--  row end -->
+        </div>
+        <!--  container end -->
+    </section>
 
 
     <!-- section blog start -->
