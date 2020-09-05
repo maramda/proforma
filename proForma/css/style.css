@@ -395,7 +395,7 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #fff;
+    color: rgb(235, 232, 232);
     transition: all 0.25s ease 0s;
     -moz-transition: all 0.25s ease 0s;
     -webkit-transition: all 0.25s ease 0s;
@@ -488,7 +488,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn-black {
     border: 2px solid #777;
-    background: #fff;
+    background: rgb(12, 12, 12);
     color: #777;
     font-size: 16px;
     margin-top: 40px;
@@ -541,7 +541,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .background-overlay.black {
     position: absolute;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(248, 245, 245, 0.95);
 }
 
 .background-overlay.grey {
@@ -574,7 +574,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .top-nav-collapse {
-    background-color: #000;
+    background-color: rgb(46, 4, 161);
 }
 
 
@@ -585,7 +585,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default.top-nav-collapse .nav li.active a {
   background-color: transparent;
-  color: #cccccc !important;
+  color: #cccc !important;
 }
 
 /*============================================

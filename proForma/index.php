@@ -2,6 +2,10 @@
 include("includes/connect.php");
 $req = $bdd->query("SELECT * FROM info");
 $donnees = $req->fetch();
+$req2 = $bdd->query("SELECT * FROM actualite");
+$req3 = $bdd->query("SELECT * FROM formation");
+$req4 = $bdd->query("SELECT * FROM info");
+
  ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -89,8 +93,8 @@ $donnees = $req->fetch();
                                         <li><a class="page-scroll" href="#section-actualite">Actualité</a></li>
                                         <li><a class="page-scroll" href="#section-etudiant">Etudiant</a></li>
                                         <li><a class="page-scroll" href="#section-testimonial">Entreprise</a></li>
-                                        <li><a class="page-scroll" href="#section-contact">Formateur</a></li>
-                                        <li><a class="page-scroll" href="#section-contact">Formation</a></li>
+                                        <li><a class="page-scroll" href="#section-formateur">Formateur</a></li>
+                                        <li><a class="page-scroll" href="#formation">Formation</a></li>
                                        <!-- <li><button type="button" class="btn btn-success btn-lg">
                                         <a  href="signup.php">Inscription</a>
                                         </button></li>-->
@@ -166,49 +170,25 @@ $donnees = $req->fetch();
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2><p>What I Offer</p>
+                        <h2><p>Actualite</p>
 </h2> </div>
                 </div>
             </div>
             <!--  row end -->
             <div class="row">
+            <?php while($donnees2 = $req2->fetch()){ ?>
 			                <div class="col-md-3 col-sm-6">
                     <div class="service-box active"> 
 					<div class="latest-b-image">
-                         <img src="images/services/1494754678.png" class="img-responsive" alt="services-image">  </div>
+                         <img src="<?php echo $donnees2['img']; ?>" class="img-responsive" alt="services-image">  </div>
 
-                        <h4>WORDPRESS</h4>
-                        <p>Generators on the Internet tend to repeat predefined generators</p>
+                        <h4><?php echo $donnees2['titre']; ?></h4>
+                        <p><?php echo $donnees2['description']; ?></p>
                     </div>
                 </div>
-                               <div class="col-md-3 col-sm-6">
-                    <div class="service-box active"> 
-					<div class="latest-b-image">
-                         <img src="images/services/1494754717.png" class="img-responsive" alt="services-image">  </div>
 
-                        <h4>PSD TO HTML</h4>
-                        <p>Generators on the Internet tend to repeat predefined generators</p>
-                    </div>
-                </div>
-                               <div class="col-md-3 col-sm-6">
-                    <div class="service-box active"> 
-					<div class="latest-b-image">
-                         <img src="images/services/1494754758.png" class="img-responsive" alt="services-image">  </div>
-
-                        <h4>MOBILE APP</h4>
-                        <p>Generators on the Internet tend to repeat predefined generators</p>
-                    </div>
-                </div>
-                               <div class="col-md-3 col-sm-6">
-                    <div class="service-box active"> 
-					<div class="latest-b-image">
-                         <img src="images/services/1494754820.png" class="img-responsive" alt="services-image">  </div>
-
-                        <h4>CUSTOMIZATION</h4>
-                        <p><p>Generators on the Internet tend to repeat predefined generatorse</p>
-</p>
-                    </div>
-                </div>
+            <?php } ?>
+                              
                            </div>
             <!--  row end -->
         </div>
@@ -270,11 +250,12 @@ $donnees = $req->fetch();
 
   <!--  section services start -->
   <section id="section-etudiant" class="section-padding">
+  
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2><p>What I Offer</p>
+                        <h2><p>Etudiant</p>
 </h2> </div>
                 </div>
             </div>
@@ -285,14 +266,459 @@ $donnees = $req->fetch();
                         <div class="col-md-7 henry-form">
                             <div class="henry-form-area">
                                 <div class="henry-form">
-                                    <h2>Get in touch</h2>
+                                    <h2>Rejoignez-nous dès maintenant!</h2>
 									                                </div>
                               
                                 <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                                <div class="col-md-6">
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="nom"  class="form-control" required="required" placeholder="Entrez Votre Nom">
+										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="prenom"  class="form-control" required="required" placeholder="Entrez Votre Prénom">
+										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="date" name="date_nas"  class="form-control" required="required" placeholder="">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="lieunas"  class="form-control" required="required" placeholder="Entrez Votre Lieu De Naissance">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <select name="region"  class="form-control" required="required">
+                                          <option value="bizerte">Bizerte</option>
+                                          <option value="beja">Beja</option>
+                                          <option value="Jendouba">Jendouba</option>
+                                          <option value="tunis">Tunis</option>
+                                          <option value="nabeul">Nabeul</option>
+                                          <option value="zaghouane">Zaghouane</option>
+                                          <option value="siliana">Siliana</option>
+                                          <option value="kef">Kef</option>
+                                          <option value="sousse">Sousse</option>
+                                          <option value="kairouan">Kairouan</option>
+                                          <option value="gasrine">Gasrine</option>
+                                          <option value="monastir">Monastir</option>
+                                          <option value="mahdia">Mahdia</option>
+                                          <option value="sfax">Sfax</option>
+                                          <option value="sidi bouzid">Sidi Bouzid</option>
+                                          <option value="gafsa">Gafsa</option>
+                                          <option value="gabes">Gabes</option>
+                                          <option value="tozeur">Tozeur</option>
+                                          <option value="Jerba">Jerba</option>
+                                          <option value="medenine">Medenine</option>
+                                         <option value="kebili">Kebili</option>
+                                         <option value="tataouine">Tataouine</option>
+                                        </select>
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="adresse"  class="form-control" required="required" placeholder="Entrez Votre Adresse">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="niveaudetude"  class="form-control" required="required" placeholder="Entrez Votre Niveau D'étude">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <label >Sexe :</label>
+                                        Homme <input type="radio" value="homme"> Femme <input type="radio" value="femme"> 
+                                    </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
+                                </form>
+                            </div>
+                        </div>
+            <!--  row end -->
+        </div>
+        <!--  container end -->
+    </section>
+
+   <!-- Section testimonial start -->
+   <section id="section-testimonial" class="parallax1">
+	  <div class="background-overlay black"></div>
+      <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2><p>Entreprise</p>
+</h2> </div>
+                </div>
+            </div>
+            <!--  row end -->
+            <div class="row">
+            <div class="col-md-10 col-md-offset-1 henry-contact-form">
+                    <div class="henry-contact-form">
+                        <div class="col-md-7 henry-form">
+                            <div class="henry-form-area">
+                                <div class="henry-form">
+                                    <h2>Rejoignez-nous dès maintenant!</h2>
+									                                </div>
+                              
+                                <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                                <div class="col-md-6">
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="nome"  class="form-control" required="required" placeholder="Entrez Votre Nom">
+										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="responsable"  class="form-control" required="required" placeholder="Entrez Nom De Responsable">
+										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="tel" name="code_fiscale"  class="form-control" required="required" placeholder="Entrez Votre Code Fiscale ">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="tel" name="code_postal"  class="form-control" required="required" placeholder="Entrez Votre Code Postal ">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" name="adresse"  class="form-control" required="required" placeholder="Entrez Votre Adresse">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="tel" name="fax"  class="form-control" required="required" placeholder="Entrez Votre Fax ">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                    
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="url" name="fax"  class="form-control" required="required" placeholder="Entrez Votre Site Web ">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
+                                    </di>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
+                                </form>
+                            </div>
+                        </div>
+            <!--  row end -->
+        </div>
+        <!--  container end -->
+        </div>
+        <!-- container end -->
+    </section>
+	    <!-- section testimonial end -->
+    
+
+<!--  section services start -->
+<section id="section-testimonial" class="section-padding">
+  
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="section-heading">
+                  <h2><p>Formateur</p>
+</h2> </div>
+          </div>
+      </div>
+      <!--  row end -->
+      <div class="row">
+      <div class="col-md-10 col-md-offset-1 henry-contact-form">
+              <div class="henry-contact-form">
+                  <div class="col-md-7 henry-form">
+                      <div class="henry-form-area">
+                          <div class="henry-form">
+                              <h2>Get in touch</h2>
+                                                              </div>
+                        
+                          <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                              <div class="input-group form-group">
+                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                  <input type="text" name="name"  class="form-control" required="required" placeholder="Full Name">
+                                  <!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+                                  <strong><strong class='text-danger'></strong></strong>
+                              </div>
+                              <div class="input-group form-group">
+                                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                  <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+                                  <strong><strong class='text-danger'></strong></strong>
+                              </div>
+                              <div class="input-group form-group">
+                                  <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                  <input type="tel" name="tel"  class="form-control" required="required" placeholder="phone">
+                                  <strong><strong class='text-danger'></strong></strong>
+                              </div>
+                              <div class="form-group">
+                                  <textarea id="message" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="MESSAGE" required="required"></textarea>
+                                  <strong><strong class='text-danger'></strong></strong>
+                              </div>
+                              <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
+                          </form>
+                      </div>
+                  </div>
+      <!--  row end -->
+  </div>
+  <!--  container end -->
+</section>
+</div>
+
+
+   <!-- Section testimonial start -->
+   <div id="formation">
+   <section id="section-testimonial" class="parallax1">
+	  <div class="background-overlay black"></div>
+      <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2><p>Formation</p>
+</h2> </div>
+                </div>
+            </div>
+            <!--  row end -->
+            <section id="section-portfolio" class="work section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-heading">
+                        <h2>Nos Thèmes</h2>
+                    </div>
+                </div>
+            </div>
+           			
+            <div class="work-inner">
+                <div class="row work-posts">-->
+                    <!-- single work area-->
+					                   <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/" class="work-popup">
+                                <img src="images/portfolio/" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Santé et Sécurité au travail</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                    <!-- end single work area -->
+					                   <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/hy.png" class="work-popup">
+                                <img src="images/portfolio/hy.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Hygiéne</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/el.png" class="work-popup">
+                                <img src="images/portfolio/el.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Electricité</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/s.png" class="work-popup">
+                                <img src="images/portfolio/s.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Soudage</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/le.png" class="work-popup">
+                                <img src="images/portfolio/le.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Levage</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/pr.png" class="work-popup">
+                                <img src="images/portfolio/pr.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Production</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/en.png" class="work-popup">
+                                <img src="images/portfolio/en.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Environnement</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/cf.png" class="work-popup">
+                                <img src="images/portfolio/cf.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Comptabilité et Finance</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/reg.png" class="work-popup">
+                                <img src="images/portfolio/reg.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Instrumentation & regulation industrielle</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/for.jpg" class="work-popup">
+                                <img src="images/portfolio/for.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>La Formation</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/grh.jpg" class="work-popup">
+                                <img src="images/portfolio/grh.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>La gestion des ressources humaine</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/mr.jpg" class="work-popup">
+                                <img src="images/portfolio/mr.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Marketing et technique commerciale</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/gs.png" class="work-popup">
+                                <img src="images/portfolio/gs.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Achat approvisionnement et Gestion de stock</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/mn.jpg" class="work-popup">
+                                <img src="images/portfolio/mn.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Management</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/li.png" class="work-popup">
+                                <img src="images/portfolio/li.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Logistique et Commerce International</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/ht.jpg" class="work-popup">
+                                <img src="images/portfolio/ht.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Habillement et Textille</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/inf.png" class="work-popup">
+                                <img src="images/portfolio/inf.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Informatique</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/lan.jpg" class="work-popup">
+                                <img src="images/portfolio/lan.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Langues étrangères</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>-->
+                    <!-- end single work area -->
+
+					                 
+															
+               </div>
+            </div>
+        </div>
+    </section>
+	    <!-- / end start work area -->
+            
+                              
+                                <!--<form action="Controller/AjoutContact.php" method="POST" class="form-padding">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                         <input type="text" name="name"  class="form-control" required="required" placeholder="Full Name">
-										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+										<!-<input type="hidden" name="fromemail" value="info@yourdomain.com">-> 
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
@@ -310,14 +736,25 @@ $donnees = $req->fetch();
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block" >Send</button>
-                                </form>
+                                </form> --->
                             </div>
                         </div>
             <!--  row end -->
         </div>
         <!--  container end -->
+        </div>
+        <!-- container end -->
     </section>
+	    <!-- section testimonial end -->
+    
 
+
+
+
+    <!-- section contact start -->
+	
+
+  
 
     <!-- section blog start -->
 	    <section id="section-premium" class="section-padding">
@@ -414,22 +851,29 @@ $donnees = $req->fetch();
             <div class="row">
                 <div class="col-md-12">
 				<div class="section-heading henry-address">
-                        <h2 class="text-center"><p>Testimonials</p>
-</h2> 
-                    </div>
-                    <div class="carousel slide" id="testimonial-carousel">
-                        <div class="carousel-inner">
+                        <h2 class="text-center"><p>Nos Partenaires</p></h2> 
+                </div>
+                <div class="carousel slide" id="testimonial-carousel">
+                    <div class="carousel-inner">
                             
-															                             <div class="item active"> <div> <img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
-                                <h4>People love us</h4>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus.
+						<div class="item active">  
+                            <img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> 
+                            <h4>Exist</h4>
+                            <img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> 
+                            <h4>Flasch</h4>
+                        </div>
+            </p>
+                                
+                                
  </p>
-                                <h5> - <strong>Thomos</strong></h5> </div>
-																                             <div class="item"> <div> <img src="images/testimonials/1494665984.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
-                                <h4>People love us</h4>
-                                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus.
- </p>
-                                <h5> - <strong>Nancy</strong></h5> </div>
+                                
+								<div class="item"> <div> <img src="images/testimonials/1494665984.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
+                                <h4>Yogo</h4>
+                                <div> <img src="images/testimonials/1494665984.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
+                                <h4>Batteries Nour</h4>
+  
+ 
+                                <h5> <strong></strong></h5> </div>
 								                            <!-- item end -->
 							
                         </div>
@@ -464,7 +908,7 @@ $donnees = $req->fetch();
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading contact-heading">
-                        <h2 class="text-center">Send us a Message</h2> 
+                        <h2 class="text-center">Contact</h2> 
                     </div>
                 </div>
                 <div class="col-md-10 col-md-offset-1 henry-contact-form">
@@ -472,51 +916,52 @@ $donnees = $req->fetch();
                         <div class="col-md-7 henry-form">
                             <div class="henry-form-area">
                                 <div class="henry-form">
-                                    <h2>Get in touch</h2>
+                                    <h2>Contactez-nous</h2>
 									                                </div>
                               
                                 <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" name="name"  class="form-control" required="required" placeholder="Full Name">
+                                        <input type="text" name="nom"  class="form-control" required="required" placeholder="Entrez Votre Nom">
 										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Entrez Votre Email">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="phone">
+                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="form-group">
                                         <textarea id="message" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="MESSAGE" required="required"></textarea>
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Send</button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
                                 </form>
                             </div>
                         </div>
                         <div class="col-md-5 henry-address">
                             <div class="henry-address">
-                                <h2>Address</h2>
-                                <p><p>Any time you can contact us by following options.</p>
+                                <h2>Adresse</h2>
+                                
 </p>
                             </div>
                             <div class="calling-address">
-							
+							<?php while($donnees4 = $req4->fetch()){ ?>
                                 <i class="fa fa-phone henry-phone"></i> <span>
-                                <?php echo $donnees['tel']; ?>
+                                <?php echo $donnees4['tel']; ?>
                                 </span> <br>
                                 <i class="fa fa-envelope henry-phone"></i> <span>
-                                <?php echo $donnees['email']; ?>
+                                <?php echo $donnees4['email']; ?>
                                 </span> <br>
                                 <i class="fa fa-map-marker henry-phone"></i> <span>
-                                <?php echo $donnees['adresse']; ?>
-                                </span>                            </div>
+                                <?php echo $donnees4['adresse']; ?>
+                            <?php } ?>
+                            </span>                            </div>
                         </div>
                     </div>
                 </div>
