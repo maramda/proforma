@@ -696,8 +696,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/lan.jpg" class="work-popup">
-                                <img src="images/portfolio/lan.jpg" alt="">
+                            <a href="images/portfolio/lang.jpg" class="work-popup">
+                                <img src="images/portfolio/lang.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Langues étrangères</h4>
                                 </div>
@@ -857,9 +857,9 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <div class="carousel-inner">
                             
 						<div class="item active">  
-                            <img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> 
+                            <div><img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
                             <h4>Exist</h4>
-                            <img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> 
+                            <div><img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
                             <h4>Flasch</h4>
                         </div>
             </p>
@@ -871,7 +871,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                                 <h4>Yogo</h4>
                                 <div> <img src="images/testimonials/1494665984.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
                                 <h4>Batteries Nour</h4>
-  
+                               
  
                                 <h5> <strong></strong></h5> </div>
 								                            <!-- item end -->
