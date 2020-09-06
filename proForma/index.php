@@ -501,7 +501,7 @@ $req4 = $bdd->query("SELECT * FROM info");
    <!-- Section testimonial start -->
    <div id="formation">
    <section id="section-testimonial" class="parallax1">
-	  <div class="background-overlay black"></div>
+	  <div class=""></div>
       <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -846,7 +846,7 @@ $req4 = $bdd->query("SELECT * FROM info");
     
      <!-- Section testimonial start -->
 	      <section id="section-testimonial" class="parallax1">
-	  <div class="background-overlay black"></div>
+	  <div class=""></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
