@@ -522,7 +522,7 @@ $req4 = $bdd->query("SELECT * FROM info");
             </div>
            			
             <div class="work-inner">
-                <div class="row work-posts">-->
+                <div class="row work-posts">
                     <!-- single work area-->
 					                   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
