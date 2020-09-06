@@ -541,7 +541,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .background-overlay.black {
     position: absolute;
-    background: rgba(189, 186, 186, 0.95);
+    background: rgba(15, 14, 14, 0.95);
 }
 
 .background-overlay.grey {
