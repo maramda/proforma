@@ -526,8 +526,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- single work area-->
 					                   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/" class="work-popup">
-                                <img src="images/portfolio/" alt="">
+                            <a href="images/portfolio/sante.jpg" class="work-popup">
+                                <img src="images/portfolio/sante.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Santé et Sécurité au travail</h4>
                                 </div>
