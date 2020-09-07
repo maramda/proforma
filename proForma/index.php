@@ -526,8 +526,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- single work area-->
 					                   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/sante.jpg" class="work-popup">
-                                <img src="images/portfolio/sante.jpg" alt="">
+                            <a href="images/portfolio/sant.png" class="work-popup">
+                                <img src="images/portfolio/sant.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Santé et Sécurité au travail</h4>
                                 </div>
@@ -582,9 +582,20 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     <h4>Production</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                    </div>
+                     <!-- end single work area -->
+                     <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/reg.png" class="work-popup">
+                                <img src="images/portfolio/reg.png" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>Instrumentation & regulation industrielle</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                   
+                     <!-- end single work area -->
+                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
                             <a href="images/portfolio/en.png" class="work-popup">
                                 <img src="images/portfolio/en.png" alt="">
@@ -596,48 +607,38 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
+                            <a href="images/portfolio/forma.jpg" class="work-popup">
+                                <img src="images/portfolio/forma.jpg" alt="">
+                                <div class="portfolio-caption">
+                                    <h4>La Formation</h4>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
                             <a href="images/portfolio/cf.png" class="work-popup">
                                 <img src="images/portfolio/cf.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Comptabilité et Finance</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                    </div>
+                     <!-- end single work area -->
+                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/reg.png" class="work-popup">
-                                <img src="images/portfolio/reg.png" alt="">
+                            <a href="images/portfolio/li.png" class="work-popup">
+                                <img src="images/portfolio/li.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Instrumentation & regulation industrielle</h4>
+                                    <h4>Logistique et Commerce International</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
+                    
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/for.jpg" class="work-popup">
-                                <img src="images/portfolio/for.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>La Formation</h4>
-                                </div>
-                            </a>                        </div>
-                    </div>-->
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/grh.jpg" class="work-popup">
-                                <img src="images/portfolio/grh.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>La gestion des ressources humaine</h4>
-                                </div>
-                            </a>                        </div>
-                    </div>-->
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/mr.jpg" class="work-popup">
-                                <img src="images/portfolio/mr.jpg" alt="">
+                            <a href="images/portfolio/make.jpg" class="work-popup">
+                                <img src="images/portfolio/make.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Marketing et technique commerciale</h4>
                                 </div>
@@ -663,16 +664,16 @@ $req4 = $bdd->query("SELECT * FROM info");
                                 </div>
                             </a>                        </div>
                     </div>-->
-                    <!-- end single work area -->
+                   <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/li.png" class="work-popup">
-                                <img src="images/portfolio/li.png" alt="">
+                            <a href="images/portfolio/grh.jpg" class="work-popup">
+                                <img src="images/portfolio/grh.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Logistique et Commerce International</h4>
+                                    <h4>La gestion des ressources humaine</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
@@ -696,8 +697,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/lang.jpg" class="work-popup">
-                                <img src="images/portfolio/lang.jpg" alt="">
+                            <a href="images/portfolio/langue.jpg" class="work-popup">
+                                <img src="images/portfolio/langue.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Langues étrangères</h4>
                                 </div>
