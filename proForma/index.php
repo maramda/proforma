@@ -143,13 +143,13 @@ $req4 = $bdd->query("SELECT * FROM info");
             <div class="row">
                 <div class="col-md-7">
                     <div class="about-wrap">
-                      <h2>HI! I AM GooTA</h2>
+                      <h2>ProForma</h2>
 
-<h4>Full-Stack Web Developer</h4>
+<!--<h4>Full-Stack Web Developer</h4>-->
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa sit, laudantium ullam non. A rem architecto quia numquam aliquid velit fugit laudantium vero, aperiam atque reiciendis natus commodi, est, labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas repudiandae quia rem neque eligendi reprehenderit velit autem quo tempora alias illo.</p>
+<p>Proforma est un centre de formation professionnelle privé et agrée par le Ministère de la formation professionnelle et de l'emploi.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa sit, laudantium ullam non. A rem architecto quia numquam aliquid velit fugit laudantium vero, aperiam atque reiciendis natus commodi, est, labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas repudiandae quia rem neque eligendi reprehenderit velit autem quo tempora alias illo.</p>
+<p>Proforma est un leader reconnu dans le domaine de la formation professionnelle en Tunisie, sa vocation est de vous garantir une formation de qualité et des compétences acquises.</p>
  
 					   </div>
                 </div>
