@@ -542,17 +542,17 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     <h4>Hygiéne</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/el.png" class="work-popup">
-                                <img src="images/portfolio/el.png" alt="">
+                            <a href="images/portfolio/elec.jpg" class="work-popup">
+                                <img src="images/portfolio/elec.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Electricité</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
