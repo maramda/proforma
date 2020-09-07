@@ -474,7 +474,7 @@ p { color: #41454d;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #333;
+    color: #190150;
     font-family: "Roboto Condensed",sans-serif;
     font-weight: 700;
     margin-bottom: 10px;
@@ -574,7 +574,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .top-nav-collapse {
-    background-color: rgb(22, 2, 107);
+    background-color: #190150;
 }
 
 
@@ -742,7 +742,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .work {
-    background: rgb(7, 1, 88);
+    background: #fff;
 }
 
 .work-inner {
@@ -843,7 +843,7 @@ ul.work li.active {
 
 #section-blog {
     padding-bottom: 90px;
-    background: #31027c;
+    background: #2a2a2a;
 }
 
 .feature-heading {
@@ -1143,7 +1143,7 @@ ul.work li.active {
 }
 
 .col-md-5.henry-address {
-  background: #2a2a2a none repeat scroll 0 0;
+  background: #190150 none repeat scroll 0 0;
   padding: 20px 20px 150px;
 }
 
@@ -1155,10 +1155,10 @@ ul.work li.active {
 }
 
 .btn-primary {
-    background: #2a2a2a;
+    background: #190150;
     color: #fff;
     font-weight: bold;
-    border: 2px solid #2a2a2a;
+    border: 2px solid #190150;
     border-radius: 0;
 }
 
@@ -1169,7 +1169,7 @@ ul.work li.active {
 
 
 .input-group-addon {
-    background: #2a2a2a;
+    background: #190150;
     color: #fff;
 }
 
@@ -1186,14 +1186,14 @@ ul.work li.active {
 }
 
 .henry-address > p {
-  color: #fff;
+  color:#fff;
   padding: 20px 0;
 }
 
 .henry-phone {
     background: #2a2a2a none repeat scroll 0 0;
     border-radius: 18px;
-    color: #164ea3;
+    color: #012253;
     height: 35px;
     margin-right: 10px;
     margin-top: 10px;
@@ -1209,7 +1209,7 @@ ul.work li.active {
 .henry-phone {
     background: #fff none repeat scroll 0 0;
     border-radius: 18px;
-    color: #2a2a2a;
+    color: #160244;
     height: 35px;
     margin-right: 10px;
     margin-top: 10px;
@@ -1224,7 +1224,7 @@ ul.work li.active {
 
 #section-footer {
     padding: 20px 0px;
-    background: #2a2a2a;
+    background: #190150;
 }
 
 .goo-social-icon {

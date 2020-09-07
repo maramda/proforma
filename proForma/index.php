@@ -463,7 +463,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                   <div class="col-md-7 henry-form">
                       <div class="henry-form-area">
                           <div class="henry-form">
-                              <h2>Get in touch</h2>
+                              <h2>Rejoignez-nous dès maintenant!</h2>
                                                               </div>
                         
                           <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
