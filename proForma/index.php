@@ -515,7 +515,7 @@ $req4 = $bdd->query("SELECT * FROM info");
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="section-heading">
+                    <div class="scection-heading">
                         <h2>Nos Thèmes</h2>
                     </div>
                 </div>
