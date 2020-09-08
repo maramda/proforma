@@ -269,7 +269,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     <h2>Rejoignez-nous dès maintenant!</h2>
 									                                </div>
                               
-                                <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                                <form action="Controller/AjoutEtudiant.php" method="post" class="form-padding">
                                 <div class="col-md-6">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -286,7 +286,7 @@ $req4 = $bdd->query("SELECT * FROM info");
 
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
+                                        <input type="number" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
@@ -341,12 +341,12 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                        <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+                                        <input type="email" name="email"  class="form-control" required="required" placeholder="Email Address">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <label >Sexe :</label>
-                                        Homme <input type="radio" value="homme"> Femme <input type="radio" value="femme"> 
+                                        Homme <input type="radio" value="homme" name="sexe"> Femme <input type="radio" value="femme" name="sexe"> 
                                     </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
@@ -526,8 +526,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- single work area-->
 					                   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/sant.png" class="work-popup">
-                                <img src="images/portfolio/sant.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Santé et Sécurité au travail</h4>
                                 </div>
@@ -536,8 +536,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
 					                   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/hy.png" class="work-popup">
-                                <img src="images/portfolio/hy.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Hygiéne</h4>
                                 </div>
@@ -546,8 +546,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/elec.jpg" class="work-popup">
-                                <img src="images/portfolio/elec.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Electricité</h4>
                                 </div>
@@ -556,28 +556,28 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/s.png" class="work-popup">
-                                <img src="images/portfolio/s.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Soudage</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/le.png" class="work-popup">
-                                <img src="images/portfolio/le.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Levage</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/pr.png" class="work-popup">
-                                <img src="images/portfolio/pr.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Production</h4>
                                 </div>
@@ -586,8 +586,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/reg.png" class="work-popup">
-                                <img src="images/portfolio/reg.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Instrumentation & regulation industrielle</h4>
                                 </div>
@@ -597,18 +597,18 @@ $req4 = $bdd->query("SELECT * FROM info");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/en.png" class="work-popup">
-                                <img src="images/portfolio/en.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Environnement</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/forma.jpg" class="work-popup">
-                                <img src="images/portfolio/forma.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>La Formation</h4>
                                 </div>
@@ -616,8 +616,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     </div>
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/cf.png" class="work-popup">
-                                <img src="images/portfolio/cf.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Comptabilité et Finance</h4>
                                 </div>
@@ -626,8 +626,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/li.png" class="work-popup">
-                                <img src="images/portfolio/li.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Logistique et Commerce International</h4>
                                 </div>
@@ -637,38 +637,38 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/make.jpg" class="work-popup">
-                                <img src="images/portfolio/make.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Marketing et technique commerciale</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/gs.png" class="work-popup">
-                                <img src="images/portfolio/gs.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Achat approvisionnement et Gestion de stock</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/mn.jpg" class="work-popup">
-                                <img src="images/portfolio/mn.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Management</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                    <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/grh.jpg" class="work-popup">
-                                <img src="images/portfolio/grh.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>La gestion des ressources humaine</h4>
                                 </div>
@@ -677,33 +677,33 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/ht.jpg" class="work-popup">
-                                <img src="images/portfolio/ht.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Habillement et Textille</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/inf.png" class="work-popup">
-                                <img src="images/portfolio/inf.png" alt="">
+                            <a href="images/portfolio/.png" class="work-popup">
+                                <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Informatique</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/langue.jpg" class="work-popup">
+                            <a href="images/portfolio/.jpg" class="work-popup">
                                 <img src="images/portfolio/langue.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Langues étrangères</h4>
                                 </div>
                             </a>                        </div>
-                    </div>-->
+                    </div>
                     <!-- end single work area -->
 
 					                 
@@ -857,10 +857,10 @@ $req4 = $bdd->query("SELECT * FROM info");
                 <div class="carousel slide" id="testimonial-carousel">
                     <div class="carousel-inner">
                             
-						<div class="item active">  
-                            <div><img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
-                            <h4>Exist</h4>
-                            <div><img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
+						<div class="item active">  <h4>Exist</h4>
+                            <div><img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image">
+                            
+                            <img src="images/testimonials/1494668163.jpg" class="img-responsive  img-circle marginAutoLR testimonial-img" alt="testimonials-image"> </div>
                             <h4>Flasch</h4>
                         </div>
             </p>
