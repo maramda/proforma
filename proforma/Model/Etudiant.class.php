@@ -32,7 +32,7 @@ public function ajouter(){
 include('../includes/connect.php');
     
 	
-		$req = $bdd->exec ("INSERT INTO etudiant(
+		$req = $bdd->exec ("INSERT INTO `etudiant`(
             'nom',
             'prenom', 
             'tel' , 
