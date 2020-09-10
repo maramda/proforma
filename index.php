@@ -469,7 +469,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                           <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                  <input type="text" name="name"  class="form-control" required="required" placeholder="Full Name">
+                                  <input type="text" name="nom"  class="form-control" required="required" placeholder="Full Name">
                                   <!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
