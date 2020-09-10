@@ -349,7 +349,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                                         Homme <input type="radio" value="homme" name="sexe"> Femme <input type="radio" value="femme" name="sexe"> 
                                     </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block" name="submit">Envoyer</button>
                                 </form>
                             </div>
                         </div>
@@ -379,11 +379,11 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     <h2>Rejoignez-nous dès maintenant!</h2>
 									                                </div>
                               
-                                <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                                <form action="Controller/ajouterentreprise.php" method="POST" class="form-padding">
                                 <div class="col-md-6">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" name="nome"  class="form-control" required="required" placeholder="Entrez Votre Nom">
+                                        <input type="text" name="nom"  class="form-control" required="required" placeholder="Entrez Votre Nom">
 										<!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
@@ -395,17 +395,17 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
+                                        <input type="number" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="code_fiscale"  class="form-control" required="required" placeholder="Entrez Votre Code Fiscale ">
+                                        <input type="number" name="code_fiscale"  class="form-control" required="required" placeholder="Entrez Votre Code Fiscale ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="code_postal"  class="form-control" required="required" placeholder="Entrez Votre Code Postal ">
+                                        <input type="number" name="code_postal"  class="form-control" required="required" placeholder="Entrez Votre Code Postal ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     </div>
@@ -417,7 +417,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="fax"  class="form-control" required="required" placeholder="Entrez Votre Fax ">
+                                        <input type="number" name="fax"  class="form-control" required="required" placeholder="Entrez Votre Fax ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                     
@@ -428,7 +428,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="url" name="fax"  class="form-control" required="required" placeholder="Entrez Votre Site Web ">
+                                        <input type="text" name="siteweb"  class="form-control" required="required" placeholder="Entrez Votre Site Web ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     </di>
