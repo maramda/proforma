@@ -105,17 +105,17 @@ header('Location:login.php');
                 <input type="text" class="form-control" id="prenom" name="prenom"  
                 placeholder="Saisissez votre prenom" >        
             </div>
+
+            <div class="form-group">
+                <label for="tel">Téléphone</label>
+                <input type="number" class="form-control" id="tel" name="tel"  
+                placeholder="Saisissez votre téléphone" >        
+            </div>
             
             <div class="form-group">
                 <label for="date_nas">Date de naissance</label>
                 <input type="date" class="form-control" id="date_nas" name="date_nas"  
                  >        
-            </div>
-            
-            <div class="form-group">
-                <label for="tel">Téléphone</label>
-                <input type="number" class="form-control" id="tel" name="tel"  
-                placeholder="Saisissez votre téléphone" >        
             </div>
 
             <div class="form-group">
