@@ -164,11 +164,7 @@ header('Location:login.php');
                 <input type="email" class="form-control" id="email" name="email" 
                 placeholder="Saisissez votre Email" >        
             </div>
-            <div class="form-group">
-                <label for="cin">Cin</label>
-                <input type="cin" class="form-control" id="cin" name="cin" 
-                placeholder="Saisissez votre cin" >        
-            </div>
+            
             <div class="form-group">
                 <label for="sexe">Sexe :</label>
                 <input type="radio" name="sexe" value="homme" id="homme" /> 
