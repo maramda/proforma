@@ -105,6 +105,7 @@ $req4 = $bdd->query("SELECT * FROM info");
         <!-- End container -->
     </nav>
 
+
     <!-- section -banner -->
     <div id="section-home" class="section-intro">
         <div class="background-overlay grey"></div>
@@ -466,7 +467,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                               <h2>Rejoignez-nous dès maintenant!</h2>
                                                               </div>
                         
-                          <form action="Controller/AjoutContact.php" method="POST" class="form-padding">
+                          <form action="Controller/ajouterentreprise.php" method="POST" class="form-padding">
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                   <input type="text" name="nom"  class="form-control" required="required" placeholder="Full Name">
