@@ -29,7 +29,7 @@ $this->sexe = $sexe;
 
 public function ajouter(){ 
 
-include('../includes/connect_db.php');
+include('includes/connect.php');
     
 	
 		$req = $bdd->exec ("INSERT INTO `etudiant`(
