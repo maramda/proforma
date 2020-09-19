@@ -1,10 +1,10 @@
 <?php
 include("includes/connect.php");
 $req = $bdd->query("SELECT * FROM info");
-$donnees = $req->fetch();
+$donnees = $req->fetch();s
 $req2 = $bdd->query("SELECT * FROM actualite");
 $req3 = $bdd->query("SELECT * FROM formation");
-$req4 = $bdd->query("SELECT * FROM info");
+
 
  ?>
 <!doctype html>
@@ -144,7 +144,7 @@ $req4 = $bdd->query("SELECT * FROM info");
             <div class="row">
                 <div class="col-md-7">
                     <div class="about-wrap">
-                      <h2>ProForma</h2>
+                      <h2>Qui sommes nous ?</h2>
 
 <!--<h4>Full-Stack Web Developer</h4>-->
 
@@ -287,17 +287,17 @@ $req4 = $bdd->query("SELECT * FROM info");
 
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="number" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
+                                        <input type="number" name="telephone"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="date" name="date_nas"  class="form-control" required="required" placeholder="">
+                                        <input type="date" name="date_naissance"  class="form-control" required="required" placeholder="">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" name="lieunas"  class="form-control" required="required" placeholder="Entrez Votre Lieu De Naissance">
+                                        <input type="text" name="lieu_naissance"  class="form-control" required="required" placeholder="Entrez Votre Lieu De Naissance">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     </div>
@@ -537,7 +537,7 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
 					                   <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
+                            <a href="images/portfolio/.jpg" class="work-popup">
                                 <img src="images/portfolio/.png" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Hygiéne</h4>
@@ -557,8 +557,8 @@ $req4 = $bdd->query("SELECT * FROM info");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 <div class="portfolio-caption">
                                     <h4>Soudage</h4>
                                 </div>
@@ -953,15 +953,15 @@ $req4 = $bdd->query("SELECT * FROM info");
 </p>
                             </div>
                             <div class="calling-address">
-							<?php while($donnees4 = $req4->fetch()){ ?>
+							<?php while($donnees = $req->fetch()){ ?>
                                 <i class="fa fa-phone henry-phone"></i> <span>
-                                <?php echo $donnees4['tel']; ?>
+                                <?php echo $donnees['tel']; ?>
                                 </span> <br>
                                 <i class="fa fa-envelope henry-phone"></i> <span>
-                                <?php echo $donnees4['email']; ?>
+                                <?php echo $donnees['email']; ?>
                                 </span> <br>
                                 <i class="fa fa-map-marker henry-phone"></i> <span>
-                                <?php echo $donnees4['adresse']; ?>
+                                <?php echo $donnees['adresse']; ?>
                             <?php } ?>
                             </span>                            </div>
                         </div>
