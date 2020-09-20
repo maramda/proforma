@@ -11,7 +11,7 @@ header('Location:login.php');
 <!-- Mirrored from themesbrand.com/skote/layouts/vertical/projects-create.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2020 15:46:42 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Ajouter entreprise </title>
+        <title>Ajouter contact </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
@@ -65,12 +65,12 @@ header('Location:login.php');
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-flex align-items-center justify-content-between">
-                                    <h4 class="mb-0 font-size-18">Ajouter entreprise </h4>
+                                    <h4 class="mb-0 font-size-18">Ajouter contact </h4>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">ProForma</a></li>
-                                            <li class="breadcrumb-item active">Ajouter entreprise </li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Proforma</a></li>
+                                            <li class="breadcrumb-item active">Ajouter contact </li>
                                         </ol>
                                     </div>
                                     
@@ -83,27 +83,28 @@ header('Location:login.php');
                             <div class="col-lg-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title mb-4">Ajouter entreprise </h4>
+                                        <h4 class="card-title mb-4">Ajouter contact </h4>
                                         
                                         
 
 		
-                                        <form action="admin/ajouterentreprise.php" method="post">
+                                        <form action="Controller/ajoutercontact.php" method="post">
+                                        
                      
 									
             
                                         
                 
             <div class="form-group">
-                <label for="nom">Nom de l'entreprise</label>
+                <label for="nom">Nom</label>
                 <input type="text" class="form-control" id="nom"  name="nom" 
-                placeholder="Saisissez votre nom d'entreprise" >
+                placeholder="Saisissez votre nom " >
             </div>
 
             <div class="form-group">
-                <label for="responsable">Nom du responsable</label>
-                <input type="text" class="form-control" id="responsable" name="responsable"  
-                placeholder="Saisissez votre nom du responsable" >        
+                <label for="useremail">Email</label>
+                <input type="email" class="form-control" id="email" name="email" 
+                placeholder="Saisissez votre Email" >        
             </div>
 
             <div class="form-group">
@@ -113,38 +114,11 @@ header('Location:login.php');
             </div>
 
             <div class="form-group">
-                <label for="code_fiscale">Code fiscale</label>
-                <input type="text" class="form-control" id="code_fiscale" name="code_fiscale"  
-                placeholder="Saisissez votre code fiscale" >        
+            <textarea id="msg" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="Message" required="required"></textarea>
+			<strong><strong class='text-danger'></strong></strong>
             </div>
 
-            <div class="form-group">
-                <label for="code_postal">Code postal</label>
-                <input type="text" class="form-control" id="code_postal" name="code_postal"  
-                placeholder="Saisissez votre code postal" >        
-            </div>
-
-            <div class="form-group">
-                <label for="adresse">Adresse</label>
-                <input type="text" class="form-control" id="adresse" name="adresse"  
-                placeholder="Saisissez votre adresse" >        
-            </div>
- 
-            <div class="form-group">
-                <label for="fax">Fax</label>
-                <input type="text" class="form-control" id="fax" name="fax"  
-                placeholder="Saisissez votre fax" >        
-            </div>
-            <div class="form-group">
-                <label for="useremail">Email</label>
-                <input type="email" class="form-control" id="email" name="email" 
-                placeholder="Saisissez votre Email" >        
-            </div>
-            <div class="form-group">
-                <label for="url">Site web</label>
-                <input type="url" class="form-control" id="siteweb" name="siteweb" 
-                placeholder="Saisissez votre site web" >        
-            </div>
+           
 
             <div class="mt-4">
                 <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Ajouter</button>

@@ -1,7 +1,7 @@
 <?php
 include("includes/connect.php");
 $req1 = $bdd->query("SELECT * FROM info");
-$donnees1 = $req1->fetch();
+
 $req2 = $bdd->query("SELECT * FROM actualite");
 $req3 = $bdd->query("SELECT * FROM formation");
 
@@ -955,11 +955,11 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                     </div>
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro">
+                                        <input type="text" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="form-group">
-                                        <textarea id="message" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="MESSAGE" required="required"></textarea>
+                                        <textarea id="msg" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="Message" required="required"></textarea>
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
@@ -972,21 +972,21 @@ $req3 = $bdd->query("SELECT * FROM formation");
                             </div>
                             <div class="calling-address">
 							<?php while($donnees1 = $req1->fetch()){ ?>
-                                <i class="fa fa-phone henry-phone"></i> <span>
+                                <i class="fa fa-phone"></i> <span>
                                 <?php echo $donnees1['tel']; ?>
                                 </span> <br>
                                 <i class="fa fa-fax"></i> <span>
                                 <?php echo $donnees1['fax']; ?>
                                 </span> <br>
-                                <i class="fa fa-phone-office"></i> <span>
+                                <i class="fa fa-phone"></i> <span>
                                 <?php echo $donnees1['fixe']; ?>
                                 </span> <br>
                                 <i class="fa fa-envelope-square"></i> <span>
                                 <?php echo $donnees1['email']; ?>
                                 </span> <br>
-                                <i class="fa fa-map-marker henry-phone"></i> <span>
+                                <i class="fa fa-map-marker "></i> <span>
                                 <?php echo $donnees1['adresse']; ?></span><br>
-                                <i class="fa fa-phone henry-phone"></i> <span>
+                                <i class="fa fa-phone "></i> <span>
                                 <?php echo $donnees1['code_postal']; ?>
                             <?php } ?>
                             </span>                            </div>
