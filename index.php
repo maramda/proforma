@@ -285,7 +285,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
 
-                                  <!--  <div class="input-group form-group">
+                                    <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                                         <input type="number" name="telephone"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
 										<strong><strong class='text-danger'></strong></strong>
@@ -348,7 +348,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                     <div class="input-group form-group">
                                         <label >Sexe :</label>
                                         Homme <input type="radio" value="homme" name="sexe"> Femme <input type="radio" value="femme" name="sexe"> 
-                                    </div>-->
+                                    </div>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block" name="submit">Envoyer</button>
                                 </form>
