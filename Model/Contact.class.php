@@ -2,7 +2,7 @@
 class Contact{
 private $name;   
 private $email;
-private $tel;
+private $tel;   
 private $msg;
 
 

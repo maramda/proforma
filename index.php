@@ -1,7 +1,7 @@
 <?php
 include("includes/connect.php");
-$req = $bdd->query("SELECT * FROM info");
-$donnees = $req->fetch();
+$req1 = $bdd->query("SELECT * FROM info");
+$donnees1 = $req1->fetch();
 $req2 = $bdd->query("SELECT * FROM actualite");
 $req3 = $bdd->query("SELECT * FROM formation");
 
@@ -291,7 +291,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                         <input type="date" name="date_naissance"  class="form-control" required="required" placeholder="">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
@@ -303,7 +303,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                     </div>
                                     <div class="col-md-6">
                                     <div class="input-group form-group">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-city"></i></span>
                                         <select name="region"  class="form-control" required="required">
                                           <option value="bizerte">Bizerte</option>
                                           <option value="beja">Beja</option>
@@ -331,12 +331,12 @@ $req3 = $bdd->query("SELECT * FROM formation");
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
                                         <input type="text" name="adresse"  class="form-control" required="required" placeholder="Entrez Votre Adresse">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-university"></i></span>
                                         <input type="text" name="niveaudetude"  class="form-control" required="required" placeholder="Entrez Votre Niveau D'étude">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
@@ -412,12 +412,12 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                     </div>
                                     <div class="col-md-6">
                                     <div class="input-group form-group">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
                                         <input type="text" name="adresse"  class="form-control" required="required" placeholder="Entrez Votre Adresse">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
                                     <div class="input-group form-group">
-                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-fax"></i></span>
                                         <input type="number" name="fax"  class="form-control" required="required" placeholder="Entrez Votre Fax ">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
@@ -468,6 +468,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                                               </div>
                         
                           <form action="Controller/ajouterentreprise.php" method="POST" class="form-padding">
+                          
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                   <input type="text" name="nom"  class="form-control" required="required" placeholder="Entrez Votre Nom">
@@ -480,6 +481,11 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                   <!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
+                              <div class="input-group form-group">
+                                        <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                                        <input type="text" name="adresse"  class="form-control" required="required" placeholder="Entrez Votre Adresse">
+										<strong><strong class='text-danger'></strong></strong>
+                                    </div>
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                                   <input type="text" name="email"  class="form-control" required="required" placeholder="Entrez Votre Email ">
@@ -497,7 +503,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
                               <div class="input-group form-group">
-                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                  <span class="input-group-addon"><i class="fa fa-file"></i></span>
                                   <input type="file" name="cv"  class="form-control" required="required" accept="image/png, image/jpeg" placeholder="">
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
@@ -963,19 +969,25 @@ $req3 = $bdd->query("SELECT * FROM formation");
                         <div class="col-md-5 henry-address">
                             <div class="henry-address">
                                 <h2>Adresse</h2>
-                                
-</p>
                             </div>
                             <div class="calling-address">
-							<?php while($donnees = $req->fetch()){ ?>
+							<?php while($donnees1 = $req1->fetch()){ ?>
                                 <i class="fa fa-phone henry-phone"></i> <span>
-                                <?php echo $donnees['tel']; ?>
+                                <?php echo $donnees1['tel']; ?>
                                 </span> <br>
-                                <i class="fa fa-envelope henry-phone"></i> <span>
-                                <?php echo $donnees['email']; ?>
+                                <i class="fa fa-fax"></i> <span>
+                                <?php echo $donnees1['fax']; ?>
+                                </span> <br>
+                                <i class="fa fa-phone-office"></i> <span>
+                                <?php echo $donnees1['fixe']; ?>
+                                </span> <br>
+                                <i class="fa fa-envelope-square"></i> <span>
+                                <?php echo $donnees1['email']; ?>
                                 </span> <br>
                                 <i class="fa fa-map-marker henry-phone"></i> <span>
-                                <?php echo $donnees['adresse']; ?>
+                                <?php echo $donnees1['adresse']; ?></span><br>
+                                <i class="fa fa-phone henry-phone"></i> <span>
+                                <?php echo $donnees1['code_postal']; ?>
                             <?php } ?>
                             </span>                            </div>
                         </div>
