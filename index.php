@@ -380,7 +380,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                     <h2>Rejoignez-nous dès maintenant!</h2>
 									                                </div>
                               
-                                <form action="admin/ajouterentreprise.php" method="POST" class="form-padding">
+                                <form action="Controller/ajouterentreprise.php" method="POST" class="form-padding">
                                 <div class="col-md-6">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
