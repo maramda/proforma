@@ -470,24 +470,38 @@ $req3 = $bdd->query("SELECT * FROM formation");
                           <form action="Controller/ajouterentreprise.php" method="POST" class="form-padding">
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                  <input type="text" name="nom"  class="form-control" required="required" placeholder="Full Name">
+                                  <input type="text" name="nom"  class="form-control" required="required" placeholder="Entrez Votre Nom">
+                                  <!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
+                                  <strong><strong class='text-danger'></strong></strong>
+                              </div>
+                              <div class="input-group form-group">
+                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                  <input type="text" name="prenom"  class="form-control" required="required" placeholder="Entrez Votre Prénom">
                                   <!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                  <input type="text" name="email"  class="form-control" required="required" placeholder="Email Address">
+                                  <input type="text" name="email"  class="form-control" required="required" placeholder="Entrez Votre Email ">
+                                  <!--<input type="hidden" name="fromemail" value="info@yourdomain.com"> --> 
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                  <input type="tel" name="tel"  class="form-control" required="required" placeholder="phone">
+                                  <input type="text" name="cin"  class="form-control" required="required" placeholder="Entrez Votre CIN">
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
-                              <div class="form-group">
-                                  <textarea id="message" name="msg" cols="30" rows="5" class="textarea-block form-control" placeholder="MESSAGE" required="required"></textarea>
+                              <div class="input-group form-group">
+                                  <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                  <input type="tel" name="tel"  class="form-control" required="required" placeholder="Entrez Votre Numéro De Téléphone">
                                   <strong><strong class='text-danger'></strong></strong>
                               </div>
+                              <div class="input-group form-group">
+                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                  <input type="file" name="cv"  class="form-control" required="required" accept="image/png, image/jpeg" placeholder="">
+                                  <strong><strong class='text-danger'></strong></strong>
+                              </div>
+                             
                               <button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
                           </form>
                       </div>
