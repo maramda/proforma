@@ -11,6 +11,7 @@ $etudiant = new Etudiant(
     $_POST['niveaudetude'],
     $_POST['email'],
     $_POST['sexe']);
+   
 $etudiant->ajouter();
 
 header("location:../index.php?resultat=oui");

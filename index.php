@@ -1,7 +1,7 @@
 <?php
 include("includes/connect.php");
 $req = $bdd->query("SELECT * FROM info");
-$donnees = $req->fetch();s
+$donnees = $req->fetch();
 $req2 = $bdd->query("SELECT * FROM actualite");
 $req3 = $bdd->query("SELECT * FROM formation");
 
@@ -115,7 +115,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                     <div class="intro-caption">
                         <!-- type headline start-->
                         <h1 class="cd-headline clip is-full-width">
-                            <span>I'm </span>
+                            <span>Bienvenue</span>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible"><?php echo $donnees['nom']; ?></b>
                                 <b>a web designer.</b>
@@ -285,7 +285,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
 
-                                    <div class="input-group form-group">
+                                  <!--  <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                                         <input type="number" name="telephone"  class="form-control" required="required" placeholder="Entrez Votre Numéro ">
 										<strong><strong class='text-danger'></strong></strong>
@@ -348,7 +348,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                     <div class="input-group form-group">
                                         <label >Sexe :</label>
                                         Homme <input type="radio" value="homme" name="sexe"> Femme <input type="radio" value="femme" name="sexe"> 
-                                    </div>
+                                    </div>-->
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block" name="submit">Envoyer</button>
                                 </form>

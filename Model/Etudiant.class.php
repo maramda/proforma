@@ -12,12 +12,13 @@ private $email;
 private $sexe;
                 
 
-function __construct($nom,$prenom,$tel,$date_nas,$lieunas,$region,$adresse,$niveaudetude,$email,$sexe){
+
+function __construct($nom,$prenom,$telephone,$date_naissance,$lieu_naissance,$region,$adresse,$niveaudetude,$email,$sexe ){
 $this->nom = $nom;
 $this->prenom = $prenom;
-$this->tel = $tel;
-$this->date_nas = $date_nas;
-$this->lieunas = $lieunas;
+$this->telephone = $telephone;
+$this->date_naissance = $date_naissance;
+$this->lieu_naissance = $lieu_naissance;
 $this->region = $region;
 $this->adresse = $adresse;
 $this->niveaudetude = $niveaudetude;
@@ -34,20 +35,21 @@ include('../includes/connect.php');
 	
 		$req = $bdd->exec ("INSERT INTO `etudiant`(
             'nom',
-            'prenom', 
-            'tel' , 
-            'date_nas',
-            'lieunas', 
+            'prenom',
+            'telephone' , 
+            'date_naissance',
+            'lieu_naissance', 
             'region', 
             'adresse' , 
             'niveaudetude', 
             'email' , 
-            'sexe') 
+            'sexe'
+          ) 
         VALUES ('$this->nom',
                 '$this->prenom',
-                '$this->tel',
-                '$this->date_nas',
-                '$this->lieunas',
+                '$this->telephone',
+                '$this->date_naissance',
+                '$this->lieu_naissance',
                 '$this->region',
                 '$this->adresse',
                 '$this->niveaudetude',
