@@ -147,15 +147,38 @@ $req4 = $bdd->query("SELECT * FROM gallary");
 
 <!--<h4>Full-Stack Web Developer</h4>-->
 
+
 <p>Proforma est un centre de formation professionnelle privé et agrée par le Ministère de la formation professionnelle et de l'emploi.</p>
 
 <p>Proforma est un leader reconnu dans le domaine de la formation professionnelle en Tunisie, sa vocation est de vous garantir une formation de qualité et des compétences acquises.</p>
  
+</div>
+
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Identification et analyse des besoins de formations.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Planification et conception de la formation.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Réalisation de la formation.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Evaluation et suivi post-formation.</strong>
+</div>
+</div>
 					   </div>
                 </div>
                 <div class="col-md-5">
                     <div class="profile"> 
-                        <img src="images/about/.jpg" alt="profile img" class="img-responsive"></div>
+                        <img src="images/about/about.jpg" alt="profile img" class="img-responsive"></div>
                 </div>
             </div>
             <!--  row  end -->
