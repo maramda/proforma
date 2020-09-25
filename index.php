@@ -661,7 +661,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="GRH.html"><h4>La gestion des ressources humaine</h4></a>
+                                <a href="GRH.php"><h4>La gestion des ressources humaine</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -672,7 +672,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Informatique.html"><h4>Informatique</h4></a>
+                                <a href="Informatique.php"><h4>Informatique</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -684,7 +684,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Langue.html"><h4>Langues étrangères</h4></a>
+                                <a href="Langue.php"><h4>Langues étrangères</h4></a>
                                 </div>
                             </a>                        </div>
                    
