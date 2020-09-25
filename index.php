@@ -399,7 +399,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
     
 
 <!--  section services start -->
-<section id="section-testimonial" class="section-padding">
+<section id="section-formateur" class="section-padding">
   
   <div class="container">
       <div class="row">

@@ -1,5 +1,5 @@
 <?php 
-class Entreprise {
+class Formateur {
 
     private $nom;
     private $prenom;
