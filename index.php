@@ -501,7 +501,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Santé.html"><h4>Santé et Sécurité au travail</h4></a>
+                                <a href="Santé.php"><h4>Santé et Sécurité au travail</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -521,7 +521,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Electricité.html"><h4>Electricité</h4></a>
+                                <a href="Electricité.php"><h4>Electricité</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -531,7 +531,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Soudage.html"><h4>Soudage</h4></a>
+                                <a href="Soudage.php"><h4>Soudage</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -541,7 +541,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Levage.html"><h4>Levage</h4></a>
+                                <a href="Levage.php"><h4>Levage</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -551,7 +551,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Comptabilitéetfinance.html"><h4>Comptabilité et Finance</h4></a>
+                                <a href="Comptabilitéetfinance.php"><h4>Comptabilité et Finance</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -562,7 +562,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Achatapprovisionnementetgestiondestock.html"><h4>Achat approvisionnement et Gestion de stock</h4></a>
+                                <a href="Achatapprovisionnementetgestiondestock.php"><h4>Achat approvisionnement et Gestion de stock</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
