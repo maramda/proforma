@@ -1,6 +1,6 @@
 <?php
 require_once('../Model/Formateur.class.php');
-$entreprise = new Formateur(
+$formateur = new Formateur(
     $_POST['nom'],
     $_POST['prenom'],
     $_POST['adresse'],
@@ -9,7 +9,7 @@ $entreprise = new Formateur(
     $_POST['cin'],
     $_POST['cv']);
     
-$entreprise->ajouter();
+$formateur->ajouter();
 
 header("location:../index.php?resultat=oui");
 //exit();
