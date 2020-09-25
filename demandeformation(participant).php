@@ -130,222 +130,51 @@
     <!-- section banner end -->
 
     
-<section>
-    <article>
-    <h3> <b>   Gestion des ressources humaines </b> </h3><br><br>
-    <table style="width:100%"> 
-    <tr>
-        <th align="center">Code</th>
-        <th align="center"> Thème</th>
-        <th align="center"> Duréé</th>
-    </tr>
-    <tr>
-        <td>GRH 01  </td>
-    
-        <td>La gestion des ressources humaines, le bilan social et suivi des indicateurs</td>
-        
-        <td> 3j</td>
-     </tr>
-     <tr>
-        <td> GRH 02</td>
-        
-        <td>Fiches de fonction et fiches des compétences(techniques, modalités d'élaboration, de présentation et d'exploitation)</td>
-     
-        <td>2j</td>
-    </tr>
-    <tr>  
-        <td> GRH 03</td>
-     
-        <td >Les techniques modernes de recrutement du personnel</td>
-        
-        <td>3j  </td>
-     </tr>
-     <tr>
-        <td> GRH 04</td>
-      
-        <td >Bilan des compétences et pilotage de la carrière du personnel </td>
-      
-        <td>3j</td>
-     </tr>
-    <tr> 
-        <td>GRH 05</td>
-    
-        <td >Gestion prévisionnelle des emplois et des compétences << GPEC >> </td>
-     
-        <td>3j</td>
-    </tr>
-    <tr>
-        <td>GRH 06  </td>
-    
-        <td >Tableau de bord de la fonction ressources humaines</td>
-        
-        <td> 3j</td>
-     </tr>
-      <tr>
-        <td> GRH 07</td>
-      
-        <td >Les régimes juridiques des contrats de travail </td>
-      
-        <td>3j</td>
-     </tr>
-    <tr> 
-        <td>GRH 08</td>
-    
-        <td >Maitrise du droit de travail tunisien </td>
-     
-        <td>3j</td>
-    </tr>
-    <tr>
-        <td>GRH 09  </td>
-    
-        <td >Le leadership et animation de groupes</td>
-        
-        <td> 3j</td>
-     </tr>
-      <tr>
-        <td> GRH 10</td>
-      
-        <td >La démarche qualité en ressources humaines</td>
-      
-        <td>3j</td>
-     </tr>
-    <tr> 
-        <td>GRH 11</td>
-    
-        <td >L'audit social dans votre entreprise: outils et méthodologies d'élaboration  </td>
-     
-        <td>3j</td>
-    </tr>
-    <tr>
-        <td>GRH 12  </td>
-    
-        <td >La communication interne et externe</td>
-        
-        <td> 3j</td>
-     </tr>
-      <tr>
-        <td> GRH 13</td>
-      
-        <td >L'essentiel de la GRH </td>
-      
-        <td>3j</td>
-     </tr>
-    <tr> 
-        <td>GRH 14</td>
-    
-        <td >Missions et enjeux du responsable des ressources humaines </td>
-     
-        <td>3j</td>
-    </tr>
-    <tr>
-        <td>GRH 15</td>
-    
-        <td >Les outils de pilotage de la fonction responsable ressources humaines</td>
-        
-        <td> 3j</td>
-     </tr>
-      <tr>
-        <td> GRH 16</td>
-      
-        <td >Développement durables et ressources humaines </td>
-      
-        <td>2j</td>
-     </tr>
-    <tr> 
-        <td>GRH 17</td>
-    
-        <td > Comment  bien intégrer les nouveaux embauchés</td>
-     
-        <td>2j</td>
-    </tr>
-    <tr>
-        <td>GRH 18</td>
-    
-        <td >Bien utiliser les statistiques dans la fonction ressources humaines</td>
-        
-        <td> 3j</td>
-     </tr>
-     <tr>
-        <td> GRH 19 </td>
-      
-        <td >Les aspects pratiques de la gestion du personnel</td>
-      
-        <td>5j</td>
-     </tr>
-    <tr> 
-        <td>GRH 20</td>
-    
-        <td >Gestion des rejets de la CNAM des bulletins de soin et son impact financier sur l'entreprise: causes, procédures de régularisation et voie de recours</td>
-     
-        <td>3j</td>
-    </tr>
-    <tr>
-        <td>GRH 21  </td>
-    
-        <td >Comment bien exercer le droit discipline et lutter contre l'absentéisme</td>
-        
-        <td> 3j</td>
-     </tr>
-     <tr>
-        <td> GRH 22</td>
-      
-        <td >Bien mener un entretien de recrutement </td>
-      
-        <td>2j</td>
-     </tr>
-    <tr> 
-        <td>GRH 23</td>
-    
-        <td >Formation des relations individuelles du travail: Les contrats de travail</td>
-     
-        <td>Nous consulter</td>
-    </tr>
-    <tr>
-        <td>GRH 24 </td>
-    
-        <td >Les difficultés économiques et les façons de réglement dans le code du travail de la Tunisie</td>
-        
-        <td> Nous consulter</td>
-     </tr>
-      <tr>
-        <td> GRH 25</td>
-      
-        <td > Pouvoir disciplinaire de l'employer</td>
-      
-        <td>Nous consulter</td>
-     </tr>
-    <tr> 
-        <td>GRH 26</td>
-    
-        <td>Gestion de la carrière</td>
-     
-        <td>Nous consulter</td>
-    </tr>
-    <tr>
-        <td>GRH 27 </td>
-    
-        <td>Droit de travail</td>
-        
-        <td> Nous consulter</td>
-     </tr>
-     <tr>
-        <td>GRH 28 </td>
-    
-        <td>Conflit collectif</td>
-        
-        <td> Nous consulter</td>
-     </tr>
-    </table>
-    <br>
-    <div class="centre">
-           <form action="demandeformation(participant).php" method="get" target="_blank" > 
-             <button type="submit" style="width:250px">demandez une formation</button>
-           </form>
-         </div>
-    
-    <br> <br>
-    </article>
-    </section>
+    <h1><center>Demandez-vous une formation !</center></h1>
+
+
+<form method="post" action="">
+<p>
+<fieldset>
+<legend><b>Quelle est la formation que vous préférez ?</b></legend>
+<p>
+<label for="theme">Thème de formation :</label>
+<select name="theme" id="theme"  >
+<option value="santé et sécurité au travail">Santé et sécurité au travail</option>
+<option value="hygiene">Hygiéne</option>
+<option value="electricité">Electricité</option>
+<option value="soudage">Soudage</option>
+<option value="levage">Levage</option>
+<option value="Production">Production</option>
+<option value="environnement">Environnement</option>
+<option value="comptabilité et finance">Comptabilité et finance</option>
+<option value="instrumentation & regulation industrielle">Instrumentation & regulation industrielle</option>
+<option value="la formation">La formation</option>
+<option value="la gestion des ressources humaine">La gestion des ressources humaine</option>
+<option value="marketing et technique commerciale">Marketing et technique commerciale</option>
+<option value="achat approvisionnement et gestion de stock">Achat approvisionnement et gestion de stock</option>
+<option value="management">Management</option>
+<option value="logistique et commerce international">Logistique et commerce international</option>
+<option value="habillement et textile">Habillement et textile</option>
+<option value="informatique">Informatique</option>
+<option value="langues etrangeres">Langues étrangères</option>
+</select>
+
+</p>
+<p>
+<label for="date"> Début de formation :</label>
+<input type="date" name="date" id="date"/>
+</p>
+<p>
+<label for="code"> Code formation:</label>
+<input type="text" name="code" id="code"/>
+</p>
+</fieldset>
+</p>
+<p>
+<center><input type="submit"  class="mon-bouton-envoyer" value=" Envoyer "  style="width:200px"  /><input type="reset" class="mon-bouton-annuler" value=" annuler "  style="width:200px" /></center>
+<p>
+</form>
     
 
 
