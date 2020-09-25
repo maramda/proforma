@@ -1,10 +1,9 @@
 <?php
 include("includes/connect.php");
 $req1 = $bdd->query("SELECT * FROM info");
-
 $req2 = $bdd->query("SELECT * FROM actualite");
 $req3 = $bdd->query("SELECT * FROM formation");
-
+$req4 = $bdd->query("SELECT * FROM gallary");
 
  ?>
 <!doctype html>
@@ -859,29 +858,45 @@ $req3 = $bdd->query("SELECT * FROM formation");
             <div class="work-inner">
                 <div class="row work-posts">
                     <!-- single work area-->
+                 
 					 <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/photo1.jpg" class="work-popup">
+                            <!--  row end -->
+            <div class="row">
+            <?php while($donnees4 = $req4->fetch()){ ?>
+			                <div class="col-md-3 col-sm-6">
+                    <div class="service-box active"> 
+					<div class="latest-b-image">
+                         <img src="<?php echo $donnees4['lien']; ?>" class="img-responsive" alt="services-image">  </div>
+                    </div>
+                </div>
+
+            <?php } ?>
+                              
+                           </div>
+            <!--  row end -->
+
+                            <!--<a href="images/portfolio/photo1.jpg" class="work-popup">
                                 <img src="images/portfolio/photo1.jpg" alt="">
                                 
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
-					 <div class="col-md-4 col-sm-4 mix web graphics development">
+					<!-- <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
                             <a href="images/portfolio/photo2.jpg" class="work-popup">
                                 <img src="images/portfolio/photo2.jpg" alt="">
                                 
                             </a>                        </div>
-                    </div>
+                    </div>-->
                     <!-- end single work area -->
-					<div class="col-md-4 col-sm-4 mix web graphics development">
+					<!--<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
                             <a href="images/portfolio/photo3.jpg" class="work-popup">
                                 <img src="images/portfolio/photo3.jpg" alt="">
                                 
                             </a>                        </div>
-                    </div>
+                    </div>-->
                     <!-- end single work area -->
 															
                </div>
