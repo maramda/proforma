@@ -24,7 +24,7 @@ public function ajouter(){
 include('../includes/connect.php');
     
 	
-		$req = $bdd->exec ("INSERT INTO `contact`(`nom`, `email`, `tel` , 'msg') 
+		$req = $bdd->exec ("INSERT INTO `contact`(`nom`, `email`, `tel` , `msg`) 
         VALUES ('$this->nom','$this->email','$this->tel','$this->msg')");
 		
 		echo'oui';

@@ -103,7 +103,7 @@ header('Location:login.php');
             <div class="form-group">
                 <label for="fax">Fax</label>
                 <input type="text" class="form-control" id="fax" name="fax"  
-                placeholder="S" >        
+                placeholder="" >        
             </div>
 
            <div class="form-group">
@@ -112,10 +112,7 @@ header('Location:login.php');
                 <input type="text" name="fixe" id="fixe"> 
                    
             </div>
-            <label for="tel">Tel</label>
-                <input type="text" class="form-control" id="tel"  name="tel" 
-                placeholder="" >
-            </div>
+            
 
             <div class="form-group">
                 <label for="email">Email</label>
@@ -127,6 +124,12 @@ header('Location:login.php');
               
                 <label for="adresse">Adresse</label>
                 <input type="text" name="adresse" id="adresse"> 
+                   
+            </div>
+            <div class="form-group">
+              
+                <label for="code_postal">Code_postal</label>
+                <input type="text" name="code_postal" id="code_postal"> 
                    
             </div>
             <div class="mt-4">

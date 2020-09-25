@@ -88,7 +88,7 @@ header('Location:login.php');
                                         
 
 		
-                                        <form action="Controller/ajouterentreprise.php" method="post">
+                                        <form action="Controller/ajoutEntreprise.php" method="post">
                      
 									
             

@@ -1,5 +1,5 @@
 <?php
-class Adresse{
+class Info{
 private $tel;
 private $fax;
 private $fixe;
