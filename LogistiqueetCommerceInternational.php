@@ -184,7 +184,7 @@
         </table>
         <br>
         <div class="centre">
-               <form action="demandeformation(participant).html" method="get" target="_blank" > 
+               <form action="demandeformation(participant).php" method="get" target="_blank" > 
                  <button type="submit" style="width:250px">demandez une formation</button>
                </form>
              </div>
