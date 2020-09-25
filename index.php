@@ -419,7 +419,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
                               <h2>Rejoignez-nous dès maintenant!</h2>
                                                               </div>
                         
-                          <form action="Controller/ajouterentreprise.php" method="POST" class="form-padding">
+                          <form action="Controller/AjoutFormateur.php" method="POST" class="form-padding">
                           
                               <div class="input-group form-group">
                                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -781,16 +781,12 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                 
                                 <div class="latest-b-post">
                                     <div class="latest-b-image">
-                                      <img src="images/blog/1494754937.jpg" class="img-responsive" alt="blog-image"> </div>
+                                      <img src="images/blog/Soretras.jpg" class="img-responsive" alt="blog-image"> </div>
                                     <!-- blog-headline -->
                                     <div class="blog-headline">
-                                       <a href="#"> <h4>VARIOUS VERSIONS HAVE EVOLVED</h4></a>      </div>
-                                    <!-- blog-content -->
-                                    <div class="blog-content">
-                                        <span class="blog-info"><a href="#" class="blog-info">Posted by - Admin</a> - <i class="fa fa-clock-o" aria-hidden="true"></i> 24 Dec 2017 </span>
-                                        <p><p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures.</p>
-</p>
-                                    </div>
+                                        <h4>Soretras</h4>
+                                        </div>
+                                   
                                     
                                 </div>
                             </div>
@@ -800,16 +796,11 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                 
                                 <div class="latest-b-post">
                                     <div class="latest-b-image">
-                                      <img src="images/blog/1494787325.jpg" class="img-responsive" alt="blog-image"> </div>
+                                      <img src="images/blog/Flasch.jpg" class="img-responsive" alt="blog-image"> </div>
                                     <!-- blog-headline -->
                                     <div class="blog-headline">
-                                       <a href="#"> <h4> VARIOUS VERSIONS HAVE EVOLVED</h4></a>      </div>
-                                    <!-- blog-content -->
-                                    <div class="blog-content">
-                                        <span class="blog-info"><a href="#" class="blog-info">Posted by - Admin</a> - <i class="fa fa-clock-o" aria-hidden="true"></i> 24 Dec 2017 </span>
-                                        <p><p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures.</p>
-</p>
-                                    </div>
+                                      <h4> Flasch</h4>     </div>
+                                    
                                     
                                 </div>
                             </div>
@@ -819,16 +810,12 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                 
                                 <div class="latest-b-post">
                                     <div class="latest-b-image">
-                                      <img src="images/blog/1494787358.jpg" class="img-responsive" alt="blog-image"> </div>
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
                                     <!-- blog-headline -->
                                     <div class="blog-headline">
-                                       <a href="#"> <h4> VARIOUS VERSIONS HAVE EVOLVED</h4></a>      </div>
-                                    <!-- blog-content -->
-                                    <div class="blog-content">
-                                        <span class="blog-info"><a href="#" class="blog-info">Posted by - Admin</a> - <i class="fa fa-clock-o" aria-hidden="true"></i> 24 Dec 2017 </span>
-                                        <p><p>It uses a dictionary of over Latin words, combined with a handful of model sentence structures.</p>
-</p>
-                                    </div>
+                                        <h4>Sonotrak </h4>
+                                        </div>
+                                   
                                     
                                 </div>
                             </div>
@@ -874,31 +861,25 @@ $req3 = $bdd->query("SELECT * FROM formation");
                     <!-- single work area-->
 					 <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494839551.jpg" class="work-popup">
-                                <img src="images/portfolio/1494839551.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>photography</h4>
-                                </div>
+                            <a href="images/portfolio/photo1.jpg" class="work-popup">
+                                <img src="images/portfolio/photo1.jpg" alt="">
+                                
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
 					 <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>graphics</h4>
-                                </div>
+                            <a href="images/portfolio/photo2.jpg" class="work-popup">
+                                <img src="images/portfolio/photo2.jpg" alt="">
+                                
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
 					<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1514120121.jpg" class="work-popup">
-                                <img src="images/portfolio/1514120121.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>Creative kids</h4>
-                                </div>
+                            <a href="images/portfolio/photo3.jpg" class="work-popup">
+                                <img src="images/portfolio/photo3.jpg" alt="">
+                                
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->

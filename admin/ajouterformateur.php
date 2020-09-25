@@ -88,7 +88,7 @@ header('Location:login.php');
                                         
 
 		
-                                        <form action="Controller/ajouterformateur.php" method="post">
+                                        <form action="Controller/AjoutFormateur.php" method="post">
                      
 									
             
