@@ -77,9 +77,9 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>   </button>
                 <!-- Logo -->
-                <!-- <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
+                <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
                     <div class="logo-title"></div>
-                </a>-->
+                </a>
 
                 <!-- Logo end -->
             </div>
@@ -155,7 +155,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                 </div>
                 <div class="col-md-5">
                     <div class="profile"> 
-                        <img src="images/about/1494755501.jpg" alt="profile img" class="img-responsive"></div>
+                        <img src="images/about/.jpg" alt="profile img" class="img-responsive"></div>
                 </div>
             </div>
             <!--  row  end -->
@@ -488,7 +488,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
             <div class="row">
                 <div class="col-sm-12">
                     <div class="scection-heading">
-                        <h2>Nos Thèmes</h2>
+                        <h2><center>Nos Thèmes</center></h2>
                     </div>
                 </div>
             </div>
@@ -498,8 +498,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- single work area-->
 					<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg.png" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Santé.html"><h4>Santé et Sécurité au travail</h4></a>
                                 </div>
@@ -508,8 +508,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
 					<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Hygiéne.php"><h4>Hygiéne</h4></a>
                                 </div>
@@ -518,8 +518,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Electricité.html"><h4>Electricité</h4></a>
                                 </div>
@@ -528,8 +528,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Soudage.html"><h4>Soudage</h4></a>
                                 </div>
@@ -538,8 +538,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!--end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Levage.html"><h4>Levage</h4></a>
                                 </div>
@@ -548,8 +548,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Comptabilitéetfinance.html"><h4>Comptabilité et Finance</h4></a>
                                 </div>
@@ -559,8 +559,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Achatapprovisionnementetgestiondestock.html"><h4>Achat approvisionnement et Gestion de stock</h4></a>
                                 </div>
@@ -571,8 +571,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Habillementettextille.html"><h4>Habillement et Textille</h4></a>
                                 </div>
@@ -581,8 +581,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Production.html"><h4>Production</h4></a>
                                 </div>
@@ -593,8 +593,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Instrumentationetregulationindustrielle.html"><h4>Instrumentation & regulation industrielle</h4></a>
                                 </div>
@@ -604,8 +604,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Environnement.html"><h4>Environnement</h4></a>
                                 </div>
@@ -614,8 +614,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Laformation.html"><h4>La Formation</h4></a>
                                 </div>
@@ -626,8 +626,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Logistiqueetcommerceinternational.html"><h4>Logistique et Commerce International</h4></a>
                                 </div>
@@ -637,8 +637,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Marketingettechniquecommerciale.html"><h4>Marketing et technique commerciale</h4></a>
                                 </div>
@@ -648,8 +648,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Management.html"><h4>Management</h4></a>
                                 </div>
@@ -658,8 +658,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                    <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="GRH.html"><h4>La gestion des ressources humaine</h4></a>
                                 </div>
@@ -669,8 +669,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Informatique.html"><h4>Informatique</h4></a>
                                 </div>
@@ -681,8 +681,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/1494840661.jpg" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
+                                <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Langue.html"><h4>Langues étrangères</h4></a>
                                 </div>
@@ -867,7 +867,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
 			                <div class="col-md-3 col-sm-6">
                     <div class="service-box active"> 
 					<div class="latest-b-image">
-                         <img src="<?php echo $donnees4['lien']; ?>" class="img-responsive" alt="services-image">  </div>
+                         <img src="<?php echo $donnees4['lien']; ?>" class="img-responsive" alt="">  </div>
                     </div>
                 </div>
 
@@ -876,16 +876,16 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                            </div>
             <!--  row end -->
 
-                            <!--<a href="images/portfolio/photo1.jpg" class="work-popup">
-                                <img src="images/portfolio/photo1.jpg" alt="">
+                            <!--<a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
 					<!-- <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/photo2.jpg" class="work-popup">
-                                <img src="images/portfolio/photo2.jpg" alt="">
+                            <a href="images/portfolio/.jpg" class="work-popup">
+                                <img src="images/portfolio/.jpg" alt="">
                                 
                             </a>                        </div>
                     </div>-->
