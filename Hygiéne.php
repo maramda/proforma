@@ -150,21 +150,10 @@ $req3 = $bdd->query("SELECT * FROM formation");
         </tr>
         <!--  row end -->
         <div class="row">
-            <?php while($donnees3 = $req3->fetch()){ ?>
-			    <div class="col-md-3 col-sm-6">
-                    <div class="service-box active"> 
-					<div class="latest-b-image">
-                         <img src="<?php echo $donnees3['img']; ?>" class="img-responsive" alt="services-image">  </div>
-                        <td> <p><?php echo $donnees3['code']; ?></p></td>
-                        <td><h4><?php echo $donnees3['titre']; ?></h4></td>
-                        <td><p><?php echo $donnees3['duree']; ?></p></td>
-                    </div>
-                </div>
-
-            <?php } ?>
+           
                               
                            </div>
-        <!--<tr>
+        <tr>
             <td>HYG 01  </td>
         
             <td>Concept HACCP</td>
@@ -240,12 +229,12 @@ $req3 = $bdd->query("SELECT * FROM formation");
             <td>Hygiène et sécurité des aliments et de l'environnement du milieu</td>
             
             <td> 2j</td>
-         </tr>-->
+         </tr>
         </table>
         <br>
         <div class="centre">
                <form action="demandeformation(participant).php" method="get" target="_blank" > 
-               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
+               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >demander formation</button></center>
                </form>
              </div>
         
@@ -280,75 +269,109 @@ $req3 = $bdd->query("SELECT * FROM formation");
                 </div>
             </div>
            			
-            <div class="work-inner">
-                <div class="row work-posts">
-                    <!-- single work area-->
-					                   <div class="col-md-4 col-sm-4 mix web graphics development">
+            
+                   <!-- end single work area -->
+					<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/1494840661.jpg" alt="">
+                            <a href="images/portfolio/hygiene.png" class="work-popup">
+                                <img src="images/portfolio/hygiene.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="ajouterformation.php"><h4>Santé et Sécurité au travail</h4></a>
+                                <a href="Hygiéne.php"><h4>Hygiéne</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
-                    <!-- end single work area -->
-					                   <div class="col-md-4 col-sm-4 mix web graphics development">
+                     <!-- single work area-->
+					<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/sante.jpg" class="work-popup">
+                                <img src="images/portfolio/sante.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Hygiéne</h4>
-                                </div>
-                            </a>                        </div>
-                    </div>
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>Electricité</h4>
+                                <a href="Santé.php"><h4>Santé et Sécurité au travail</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
+                            <a href="images/portfolio/electricite.png" class="work-popup">
+                                <img src="images/portfolio/electricite.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Soudage</h4>
+                                <a href="Electricité.php"><h4>Electricité</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/soudage.jpg" class="work-popup">
+                                <img src="images/portfolio/soudage.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Levage</h4>
+                                <a href="Soudage.php"><h4>Soudage</h4></a>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                    <!--end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/levage.png" class="work-popup">
+                                <img src="images/portfolio/levage.png" alt="">
+                                <div class="portfolio-caption">
+                                <a href="Levage.php"><h4>Levage</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/comptabilité.png" class="work-popup">
+                                <img src="images/portfolio/comptabilité.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Production</h4>
+                                <a href="Comptabilitéetfinance.php"><h4>Comptabilité et Finance</h4></a>
+                                </div>
+                            </a>                        </div>
+                    </div>
+               
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/achatapprovisionnementetgestiondestock.png" class="work-popup">
+                                <img src="images/portfolio/achatapprovisionnementetgestiondestock.png" alt="">
+                                <div class="portfolio-caption">
+                                <a href="Achatapprovisionnementetgestiondestock.php"><h4>Achat approvisionnement et Gestion de stock</h4></a>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                   
+                   
+                    <!-- end single work area -->
+                    <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/habillement.jpg" class="work-popup">
+                                <img src="images/portfolio/habillement.jpg" alt="">
+                                <div class="portfolio-caption">
+                                <a href="Habillementettextille.php"><h4>Habillement et Textille</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/production.png" class="work-popup">
+                                <img src="images/portfolio/production.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Instrumentation & regulation industrielle</h4>
+                                <a href="Production.php"><h4>Production</h4></a>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                 
+                           
+                     <!-- end single work area -->
+                     <div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/instrumentationetregulationindustrielle.png" class="work-popup">
+                                <img src="images/portfolio/instrumentationetregulationindustrielle.png" alt="">
+                                <div class="portfolio-caption">
+                                <a href="Instrumentationetregulationindustrielle.php"><h4>Instrumentation & regulation industrielle</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -356,39 +379,32 @@ $req3 = $bdd->query("SELECT * FROM formation");
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/environnement.png" class="work-popup">
+                                <img src="images/portfolio/environnement.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Environnement</h4>
+                                <a href="Environnement.php"><h4>Environnement</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
+                            <a href="images/portfolio/formation.jpg" class="work-popup">
+                                <img src="images/portfolio/formation.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>La Formation</h4>
+                                <a href="Laformation.php"><h4>La Formation</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>Comptabilité et Finance</h4>
-                                </div>
-                            </a>                        </div>
-                    </div>
+                    
+                   
                      <!-- end single work area -->
                      <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/logistiqueetcommerceinternational.png" class="work-popup">
+                                <img src="images/portfolio/logistiqueetcommerceinternational.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Logistique et Commerce International</h4>
+                                <a href="Logistiqueetcommerceinternational.php"><h4>Logistique et Commerce International</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -396,72 +412,58 @@ $req3 = $bdd->query("SELECT * FROM formation");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
+                            <a href="images/portfolio/marketingettechniquecommerciale.jpg" class="work-popup">
+                                <img src="images/portfolio/marketingettechniquecommerciale.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Marketing et technique commerciale</h4>
+                                <a href="Marketingettechniquecommerciale.php"><h4>Marketing et technique commerciale</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
+                   
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/management.jpg" class="work-popup">
+                                <img src="images/portfolio/management.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Achat approvisionnement et Gestion de stock</h4>
-                                </div>
-                            </a>                        </div>
-                    </div>
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>Management</h4>
+                                <a href="Management.php"><h4>Management</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
                    <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
+                            <a href="images/portfolio/grh.jpg" class="work-popup">
+                                <img src="images/portfolio/grh.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>La gestion des ressources humaine</h4>
+                                <a href="GRH.php"><h4>La gestion des ressources humaine</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
+                   
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
+                            <a href="images/portfolio/informatique.png" class="work-popup">
+                                <img src="images/portfolio/informatique.png" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Habillement et Textille</h4>
+                                <a href="Informatique.php"><h4>Informatique</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
+                   
+                  
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/.png" class="work-popup">
-                                <img src="images/portfolio/.png" alt="">
+                            <a href="images/portfolio/langues.jpg" class="work-popup">
+                                <img src="images/portfolio/langues.jpg" alt="">
                                 <div class="portfolio-caption">
-                                    <h4>Informatique</h4>
+                                   <a href="Langue.php"><h4>Langues étrangères</h4></a>
                                 </div>
-                            </a>                        </div>
-                    </div>
-                    <!-- end single work area -->
-                    <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/langue.jpg" alt="">
-                                <div class="portfolio-caption">
-                                    <h4>Langues étrangères</h4>
-                                </div>
-                            </a>                        </div>
+                            </a>
+                        </div>
+                    												
                     </div>
                     <!-- end single work area -->
 

@@ -94,9 +94,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                                         <li><a class="page-scroll" href="#section-testimonial">Entreprise</a></li>
                                         <li><a class="page-scroll" href="#section-formateur">Formateur</a></li>
                                         <li><a class="page-scroll" href="#formation">Formation</a></li>
-                                       <!-- <li><button type="button" class="btn btn-success btn-lg">
-                                        <a  href="signup.php">Inscription</a>
-                                        </button></li>-->
+                                      
 
                 </ul>
             </div><!-- End navigation links -->
