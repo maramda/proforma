@@ -274,7 +274,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                                         <input type="text" name="lieunas"  class="form-control" required="required" placeholder="Entrez Votre Lieu De Naissance">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
-                                    
+                                    </div>
                                     <div class="col-md-6">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-city"></i></span>
