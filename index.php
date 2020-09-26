@@ -515,19 +515,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     </div>
                 </div>
             </div>
-           			
-            <div class="work-inner">
-                <div class="row work-posts">
-                    <!-- single work area-->
-					<div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/sante.jpg" class="work-popup">
-                                <img src="images/portfolio/sante.jpg" alt="">
-                                <div class="portfolio-caption">
-                                <a href="Santé.php"><h4>Santé et Sécurité au travail</h4></a>
-                                </div>
-                            </a>                        </div>
-                    </div>
+                   
                     <!-- end single work area -->
 					<div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
@@ -535,6 +523,16 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                                 <img src="images/portfolio/hygiene.png" alt="">
                                 <div class="portfolio-caption">
                                 <a href="Hygiéne.php"><h4>Hygiéne</h4></a>
+                                </div>
+                            </a>                        </div>
+                    </div>
+                     <!-- single work area-->
+					<div class="col-md-4 col-sm-4 mix web graphics development">
+                        <div class="item">
+                            <a href="images/portfolio/sante.jpg" class="work-popup">
+                                <img src="images/portfolio/sante.jpg" alt="">
+                                <div class="portfolio-caption">
+                                <a href="Santé.php"><h4>Santé et Sécurité au travail</h4></a>
                                 </div>
                             </a>                        </div>
                     </div>
@@ -704,8 +702,8 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                     <!-- end single work area -->
                     <div class="col-md-4 col-sm-4 mix web graphics development">
                         <div class="item">
-                            <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
-                                <img src="images/portfolio/fond_degraderouge.png" alt="">
+                            <a href="images/portfolio/langues.jpg" class="work-popup">
+                                <img src="images/portfolio/langues.jpg" alt="">
                                 <div class="portfolio-caption">
                                    <a href="Langue.php"><h4>Langues étrangères</h4></a>
                                 </div>
@@ -854,74 +852,52 @@ $req4 = $bdd->query("SELECT * FROM gallary");
     <!-- section features end -->
     
      <!-- Section testimonial start -->
-	      <section id="section-testimonial" class="parallax1">
-	  <div class=""></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-				<div class="section-heading henry-address">
-                        <h2 class="text-center"><p>Galerie</p></h2> 
-                </div>
-                <!-- start portfolio area -->
-	   <section id="section-portfolio" class="work section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-heading">
-                        <h2>Nos photos</h2>
-                    </div>
-                </div>
-            </div>
+	<section id="section-testimonial" class="parallax1">
+	    <div class=""></div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+				       <div class="section-heading henry-address">
+                          <h2 class="text-center"><p>Galerie</p></h2> 
+                       </div>
+         <!-- start services area -->
+	  <section id="section-services" class="work section-padding">
+                   <div class="container">
+                        <div class="row">
+                             <div class="col-sm-12">
+                                 <div class="section-heading">
+                                      <h2>Nos photos</h2>
+                                 </div>
+                             </div>
+                       </div>
            			
-            <div class="work-inner">
-                <div class="row work-posts">
-                    <!-- single work area-->
+                   <div class="work-inner">
+                   <!--<div class="row work-posts">-->
+                      <!-- single work area-->
                  
-					 <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <!--  row end -->
-            <div class="row">
-            <?php while($donnees4 = $req4->fetch()){ ?>
-			                <div class="col-md-3 col-sm-6">
-                    <div class="service-box active"> 
-					<div class="latest-b-image">
-                         <img src="<?php echo $donnees4['lien']; ?>" class="img-responsive" alt="">  </div>
-                    </div>
-                </div>
+					   <div class="col-md-4 col-sm-4 mix web graphics development">
+                           <div class="item">
+            
+                              <?php while($donnees4 = $req4->fetch()){ ?>
+                               <div class="service-box active">
+					                 <div class="latest-b-image">
+                                         <img src="<?php echo $donnees4['lien']; ?>" class="img-responsive" alt="">
+                                     </div>
+                                 </div>
+                               </div>
 
-            <?php } ?>
-                              
-                           </div>
-            <!--  row end -->
-
-                            <!--<a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
-                                
-                            </a>                        </div>
+                                <?php } ?>
+                            </div>
+                                    
+                        </div>
                     </div>
-                    <!-- end single work area -->
-					<!-- <div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/.jpg" class="work-popup">
-                                <img src="images/portfolio/.jpg" alt="">
-                                
-                            </a>                        </div>
-                    </div>-->
-                    <!-- end single work area -->
-					<!--<div class="col-md-4 col-sm-4 mix web graphics development">
-                        <div class="item">
-                            <a href="images/portfolio/photo3.jpg" class="work-popup">
-                                <img src="images/portfolio/photo3.jpg" alt="">
-                                
-                            </a>                        </div>
-                    </div>-->
-                    <!-- end single work area -->
-															
                </div>
-            </div>
-        </div>
+           </div>
+    
+       </section>
+	     
+        <!--  container end -->
     </section>
-	    
                         <!-- caorusel inner end -->
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
