@@ -128,6 +128,90 @@
         <!-- container end -->
     </div>
     <!-- section banner end -->
+      <!-- section about start -->
+      <section id="section-about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="about-wrap">
+                      <h2>Qui sommes nous ?</h2>
+
+<!--<h4>Full-Stack Web Developer</h4>-->
+
+
+<p>Proforma est un centre de formation professionnelle privé et agrée par le Ministère de la formation professionnelle et de l'emploi.</p>
+
+<p>Proforma est un leader reconnu dans le domaine de la formation professionnelle en Tunisie, sa vocation est de vous garantir une formation de qualité et des compétences acquises.</p>
+ 
+</div>
+
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Identification et analyse des besoins de formations.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Planification et conception de la formation.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Réalisation de la formation.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Evaluation et suivi post-formation.</strong>
+</div>
+</div>
+					   </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="profile"> 
+                        <img src="images/about/about.jpg" alt="profile img" class="img-responsive"></div>
+                </div>
+            </div>
+            <!--  row  end -->
+        </div>
+        <!--  container end -->
+    </section>
+	    <!-- section about end -->
+
+    <!--  section services start -->
+	    <section id="section-actualite" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2><p>Actualite</p>
+</h2> </div>
+                </div>
+            </div>
+            <!--  row end -->
+            <div class="row">
+            <?php while($donnees2 = $req2->fetch()){ ?>
+			                <div class="col-md-3 col-sm-6">
+                    <div class="service-box active"> 
+					<div class="latest-b-image">
+                         <img src="<?php echo $donnees2['img']; ?>" class="img-responsive" alt="services-image">  </div>
+
+                        <h4><?php echo $donnees2['titre']; ?></h4>
+                        <p><?php echo $donnees2['description']; ?></p>
+                    </div>
+                </div>
+
+            <?php } ?>
+                              
+                           </div>
+            <!--  row end -->
+        </div>
+        <!--  container end -->
+    </section>
+	    <!--  section services end -->
+
+     
+                          
 
     
     <h1><center>Demandez-vous une formation !</center></h1>
