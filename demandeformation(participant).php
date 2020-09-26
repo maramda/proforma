@@ -241,7 +241,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                              <h2>Demandez-vous une formation !</h2>
                           </div>
 
-                          <form action="Controller/AjoutDemandeformation .php" method="post" class="form-padding">
+                          <form action="Controller/AjoutDemandeformation.php" method="post" class="form-padding">
                           <div class="col-md-6">
                           <p>
                                      <fieldset>

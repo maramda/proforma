@@ -410,7 +410,7 @@
         <br>
         <div class="centre">
                <form action="demandeformation(participant).php" method="get" target="_blank" > 
-               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Demander une formation</button></center>
+               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
                </form>
              </div>
         <br> <br>

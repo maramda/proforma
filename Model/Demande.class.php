@@ -10,10 +10,7 @@ private $code;
 function __construct($theme,$date,$code){
 $this->theme = $theme;
 $this->date = $date;
-$this->code = $code;
-
-
-}
+$this->code = $code;}
 
 
 public function ajouter(){ 
@@ -24,15 +21,10 @@ include('../includes/connect.php');
 		$req = $bdd->exec ("INSERT INTO `demandeformation`(
             'theme',
             'date',
-            'code' 
-           
-           
-          ) 
+            'code') 
         VALUES ('$this->theme',
                 '$this->date',
-                '$this->code'
-                
-        )");
+                '$this->code')");
 		
 		echo'oui';
                 //return TRUE;
