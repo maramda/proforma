@@ -10,11 +10,11 @@
         =============================================== -->
         <meta charset="utf-8">
         <meta https-equiv="x-ua-compatible" content="ie=edge">
-        <title>HI! I AM GooTA</title>
+        <title>Achat approvisionnement et gestion de stock</title>
 		<meta name="description" content="GooTA">
 		<meta name="keywords" content="GooTA">
 		<meta name="author" content="cmsden">
-		<link rel="shortcut icon" type="image/jpg" href="images/336976.png">
+		<link rel="shortcut icon" type="image/jpg" href="images/logo.png">
       
 
         <!-- ==============================================
@@ -25,10 +25,10 @@
         <!-- ==============================================
         Favicons
         =============================================== -->
-        <link rel="shortcut icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/336976.png">
+        <link rel="shortcut icon" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/logo.png">
 
         <!-- ==============================================
         Fonts
@@ -135,7 +135,7 @@
         <tr>
             <th align="center">Code</th>
             <th align="center"> Thème</th>
-            <th align="center"> Duréé</th>
+            <th align="center"> Durée</th>
         </tr>
         <tr>
             <td>AAGS 01  </td>
@@ -197,7 +197,7 @@
         <br>
         <div class="centre">
                <form action="demandeformation(participant).php" method="get" target="_blank" > 
-               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
+               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Demander formation</button></center>
                </form>
              </div>
         

@@ -1,6 +1,6 @@
 <?php
 include("includes/connect.php");
-
+$req1 = $bdd->query("SELECT * FROM info");
 $req3 = $bdd->query("SELECT * FROM formation");
 
 
@@ -20,11 +20,11 @@ $req3 = $bdd->query("SELECT * FROM formation");
         =============================================== -->
         <meta charset="utf-8">
         <meta https-equiv="x-ua-compatible" content="ie=edge">
-        <title>HI! I AM GooTA</title>
+        <title>Hygiéne</title>
 		<meta name="description" content="GooTA">
 		<meta name="keywords" content="GooTA">
 		<meta name="author" content="cmsden">
-		<link rel="shortcut icon" type="image/jpg" href="images/336976.png">
+		<link rel="shortcut icon" type="image/jpg" href="images/logo.png">
       
 
         <!-- ==============================================
@@ -35,10 +35,10 @@ $req3 = $bdd->query("SELECT * FROM formation");
         <!-- ==============================================
         Favicons
         =============================================== -->
-        <link rel="shortcut icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/336976.png">
+        <link rel="shortcut icon" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/logo.png">
 
         <!-- ==============================================
         Fonts
@@ -79,9 +79,9 @@ $req3 = $bdd->query("SELECT * FROM formation");
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>   </button>
                 <!-- Logo -->
-                <!-- <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
+                <a class="navbar-brand" href="#page-top"><img src="images/logo.png" class="img-responsive" alt="logo" />
                     <div class="logo-title"></div>
-                </a>-->
+                </a>
 
                 <!-- Logo end -->
             </div>
@@ -96,12 +96,11 @@ $req3 = $bdd->query("SELECT * FROM formation");
                                         <li><a class="page-scroll" href="#section-testimonial">Entreprise</a></li>
                                         <li><a class="page-scroll" href="#section-formateur">Formateur</a></li>
                                         <li><a class="page-scroll" href="#formation">Formation</a></li>
-                                       <!-- <li><button type="button" class="btn btn-success btn-lg">
-                                        <a  href="signup.php">Inscription</a>
-                                        </button></li>-->
+                                       
 
                 </ul>
-            </div><!-- End navigation links -->
+            </div>
+            <!-- End navigation links -->
         </div> 
         <!-- End container -->
     </nav>
@@ -109,7 +108,8 @@ $req3 = $bdd->query("SELECT * FROM formation");
 
     <!-- section -banner -->
     <div id="section-home" class="section-intro">
-        <div class="background-overlay grey"></div>
+        <div class="background-overlay grey">
+</div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -240,7 +240,51 @@ $req3 = $bdd->query("SELECT * FROM formation");
         
         <br> <br>
         
-        
+         <!-- section about start -->
+	     <section id="section-about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="about-wrap">
+                      <h2>Qui sommes nous ?</h2>
+                      
+<p>Proforma est un centre de formation professionnelle privé et agrée par le Ministère de la formation professionnelle et de l'emploi.</p>
+
+<p>Proforma est un leader reconnu dans le domaine de la formation professionnelle en Tunisie, sa vocation est de vous garantir une formation de qualité et des compétences acquises.</p>
+ 
+</div>
+
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Identification et analyse des besoins de formations.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Planification et conception de la formation.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Réalisation de la formation.</strong>
+</div>
+</div>
+<div style="padding:4px; border:4px solid #e0e0e0;">
+<div style="padding:3px; background-color:#e0e0e0;">
+<strong>Evaluation et suivi post-formation.</strong>
+</div>
+</div>
+					   </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="profile"> 
+                        <img src="images/about/about.jpg" alt="profile img" class="img-responsive"></div>
+                </div>
+            </div>
+            <!--  row  end -->
+        </div>
+        <!--  container end -->
+    </section>
 
     
 

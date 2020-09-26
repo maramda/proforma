@@ -11,7 +11,7 @@ header('Location:login.php');
 <!-- Mirrored from themesbrand.com/skote/layouts/vertical/projects-create.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2020 15:46:42 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Ajouter demande formation </title>
+        <title>demande formation </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
@@ -65,12 +65,12 @@ header('Location:login.php');
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-flex align-items-center justify-content-between">
-                                    <h4 class="mb-0 font-size-18">Ajouter demande formation </h4>
+                                    <h4 class="mb-0 font-size-18"> demande formation </h4>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Proforma</a></li>
-                                            <li class="breadcrumb-item active">Ajouter demande formation </li>
+                                            <li class="breadcrumb-item active"> demande formation </li>
                                         </ol>
                                     </div>
                                     
@@ -115,41 +115,28 @@ header('Location:login.php');
                                     </select>
                                     </div>
                                         
-                
-            
+                                    <div class="form-group">
+                                         <input type="date" class="form-control" id="date" name="date"  placeholder="" >        
+                                   </div>
 
-            <div class="form-group">
-                <input type="date" class="form-control" id="date" name="date" 
-                placeholder="" >        
-            </div>
+                                   <div class="form-group">
+                                      <label for="code">Code</label>
+                                      <input type="code" class="form-control" id="code" name="code"  placeholder="Saisissez le code de formation" >        
+                                  </div>
 
-            <div class="form-group">
-                <label for="code">Code</label>
-                <input type="code" class="form-control" id="code" name="code"  
-                placeholder="Saisissez le code de formation" >        
-            </div>
-
-            
-
-           
-
-            <div class="mt-4">
-                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Ajouter</button>
-            </div>
-
-            
-        
-									
-									
-								</form> 
+                                   <div class="mt-4">
+                                      <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Ajouter</button>
+                                  </div>					
+		                       </form> 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- end row -->
+            <!-- end row -->
 
                     </div> <!-- container-fluid -->
                 </div>
+                 
                 <!-- End Page-content -->
 
                 

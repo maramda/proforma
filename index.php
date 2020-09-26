@@ -18,7 +18,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
         =============================================== -->
         <meta charset="utf-8">
         <meta https-equiv="x-ua-compatible" content="ie=edge">
-        <title>HI! I AM GooTA</title>
+        <title>Acceuil</title>
 		<meta name="description" content="GooTA">
 		<meta name="keywords" content="GooTA">
 		<meta name="author" content="cmsden">
@@ -142,9 +142,6 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                 <div class="col-md-7">
                     <div class="about-wrap">
                       <h2>Qui sommes nous ?</h2>
-
-<!--<h4>Full-Stack Web Developer</h4>-->
-
 
 <p>Proforma est un centre de formation professionnelle privé et agrée par le Ministère de la formation professionnelle et de l'emploi.</p>
 

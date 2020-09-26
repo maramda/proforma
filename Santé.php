@@ -10,11 +10,11 @@
         =============================================== -->
         <meta charset="utf-8">
         <meta https-equiv="x-ua-compatible" content="ie=edge">
-        <title>HI! I AM GooTA</title>
+        <title>Santé et sécurité de travail</title>
 		<meta name="description" content="GooTA">
 		<meta name="keywords" content="GooTA">
 		<meta name="author" content="cmsden">
-		<link rel="shortcut icon" type="image/jpg" href="images/336976.png">
+		<link rel="shortcut icon" type="image/jpg" href="images/logo.png">
       
 
         <!-- ==============================================
@@ -25,10 +25,10 @@
         <!-- ==============================================
         Favicons
         =============================================== -->
-        <link rel="shortcut icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/336976.png">
+        <link rel="shortcut icon" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/logo.png">
+        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/logo.png">
 
         <!-- ==============================================
         Fonts
