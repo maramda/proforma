@@ -34,8 +34,22 @@ public function ajouter(){
 
     include('../includes/connect.php');
 
-    $req = $bdd->exec ("INSERT INTO `entreprise`('nom','responsable','tel','code_fiscale','code_postal','fax','email','siteweb') 
-    values ('$this->nom,$this->responsable,$this->tel,$this->code_fiscale,$this->code_postal,$this->fax,$this->email,$this->siteweb')");
+    $req = $bdd->exec ("INSERT INTO `entreprise`('nom',
+                                                 'responsable',
+                                                 'tel',
+                                                 'code_fiscale',
+                                                 'code_postal',
+                                                 'fax',
+                                                 'email',
+                                                 'siteweb') 
+    VALUES ('$this->nom,
+             $this->responsable,
+             $this->tel,
+             $this->code_fiscale,
+             $this->code_postal,$this->fax,
+             $this->email,
+             $this->siteweb'
+             )");
 echo'oui';
 }
 

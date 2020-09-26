@@ -185,7 +185,7 @@
 <br>
 <div class="centre">
        <form action="demandeformation(participant).html" method="get" target="_blank" > 
-         <button type="submit" style="width:250px">demandez une formation</button>
+       <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
        </form>
 	 </div>
 

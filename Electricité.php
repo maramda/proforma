@@ -162,7 +162,7 @@ $req4 = $bdd->query("SELECT * FROM formation");
                            </div>
 
     
-
+                           <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
 
   
    <!-- Section testimonial start -->

@@ -24,13 +24,13 @@ include('../includes/connect.php');
 		$req = $bdd->exec ("INSERT INTO `demandeformation`(
             'theme',
             'date',
-            'code' , 
+            'code' 
            
            
           ) 
         VALUES ('$this->theme',
-                '$this->pretheme',
-                '$this->code',
+                '$this->date',
+                '$this->code'
                 
         )");
 		
