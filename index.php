@@ -274,7 +274,7 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                                         <input type="text" name="lieunas"  class="form-control" required="required" placeholder="Entrez Votre Lieu De Naissance">
 										<strong><strong class='text-danger'></strong></strong>
                                     </div>
-                                    </div>
+                                    
                                     <div class="col-md-6">
                                     <div class="input-group form-group">
                                         <span class="input-group-addon"><i class="fa fa-city"></i></span>
@@ -707,18 +707,13 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                             <a href="images/portfolio/fond_degraderouge.png" class="work-popup">
                                 <img src="images/portfolio/fond_degraderouge.png" alt="">
                                 <div class="portfolio-caption">
-                                <a href="Langue.php"><h4>Langues étrangères</h4></a>
+                                   <a href="Langue.php"><h4>Langues étrangères</h4></a>
                                 </div>
-                            </a>                        </div>
-                   
-                  
-                 
-                 
-                  
-
-					                 
-															
-               </div>
+                            </a>
+                        </div>
+                    												
+                    </div>
+                     <!-- end single work area -->
             </div>
             <!--  row end -->
            <!-- <div class="row">
