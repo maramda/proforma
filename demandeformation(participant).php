@@ -172,7 +172,7 @@
 </fieldset>
 </p>
 <p>
-<center><input type="submit"  class="mon-bouton-envoyer" value=" Envoyer "  style="width:200px"  /><input type="reset" class="mon-bouton-annuler" value=" annuler "  style="width:200px" /></center>
+<button type="submit" class="btn btn-primary btn-lg btn-block" >Envoyer</button>
 <p>
 </form>
     
