@@ -146,7 +146,7 @@ $req3 = $bdd->query("SELECT * FROM formation");
         <tr>
             <th align="center">Code</th>
             <th align="center"> Thème</th>
-            <th align="center"> Duréé</th>
+            <th align="center"> Durée</th>
         </tr>
         <!--  row end -->
         <div class="row">

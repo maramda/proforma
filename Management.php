@@ -136,7 +136,7 @@
         <tr>
             <th align="center">Code</th>
             <th align="center"> Thème</th>
-            <th align="center"> Duréé</th>
+            <th align="center"> Durée</th>
         </tr>
          </tr>
          <tr> 
@@ -425,7 +425,7 @@
         <br>
         <div class="centre">
                <form action="demandeformation(participant).php" method="get" target="_blank" > 
-               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
+               <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Demander formation</button></center>
                </form>
              </div>
         

@@ -133,7 +133,7 @@
 
     
 
-    <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
+    <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Demander formation</button></center>
   
    <!-- Section testimonial start -->
    <div id="formation">

@@ -144,7 +144,7 @@ $req4 = $bdd->query("SELECT * FROM formation");
         <tr>
             <th align="center">Code</th>
             <th align="center"> Thème</th>
-            <th align="center"> Duréé</th>
+            <th align="center"> Durée</th>
         </tr>
         <!--  row end -->
         <div class="row">
@@ -164,7 +164,7 @@ $req4 = $bdd->query("SELECT * FROM formation");
                            </div>
 
     
-                           <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Envoyer</button></center>
+                           <center><button type="submit" class="btn btn-primary btn-lg btn-block" style="width:250px" >Demander formation</button></center>
 
   
    <!-- Section testimonial start -->
