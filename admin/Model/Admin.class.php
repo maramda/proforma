@@ -2,15 +2,14 @@
 class Admin{
 private $login;
 private $password;
-private $email;
 
 
                 
 
-function __construct($login,$password,$email){
+function __construct($login,$password){
 $this->login = $login;
 $this->password = $password;
-$this->email = addslashes($email);
+
 
 
 
@@ -22,7 +21,7 @@ public function ajouter(){
   include('../includes/connect_db.php');
       
     
-      $req = $bdd->exec ("INSERT INTO `admin`(`login`, `password`, `email`) VALUES ('$this->login','$this->password','$this->email')");
+      $req = $bdd->exec ("INSERT INTO `admin`(`login`, `password`) VALUES ('$this->login','$this->password')");
       
       echo'oui';
                   //return TRUE;
@@ -36,7 +35,7 @@ public function ajouter(){
 
     $id=$_GET['id'];
         
-    $req=$bdd->exec("UPDATE `admin` SET  `login`='$this->login',`password`='$this->password',`email`='$this->email' WHERE id=$id");
+    $req=$bdd->exec("UPDATE `admin` SET  `login`='$this->login',`password`='$this->password' WHERE id=$id");
     
     
     echo'oui';

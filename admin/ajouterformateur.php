@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['id'])) {
-header('Location:login.php');
+header('Location:index.php');
 }else{
 ?>
 <!doctype html>
@@ -88,57 +88,57 @@ header('Location:login.php');
                                         
 
 		
-                                        <form action="Controller/AjoutFormateur.php" method="post">
+                                        <form action="Ajouter_Formateur.php" method="post">
                      
 									
             
                                         
                 
             <div class="form-group">
-                <label for="nom">Nom </label>
-                <input type="text" class="form-control" id="nom"  name="nom" 
+                <label for="nom_f">Nom </label>
+                <input type="text" class="form-control" id="nom"  name="nom_f" 
                 placeholder="Saisissez votre nom " >
             </div>
 
             <div class="form-group">
-                <label for="prenom">Prénom</label>
-                <input type="prenom" class="form-control" id="prenom" name="prenom"  
+                <label for="prenom_f">Prénom</label>
+                <input type="text" class="form-control" id="prenom" name="prenom_f"  
                 placeholder="Saisissez votre prenom" >        
             </div>
 
             <div class="form-group">
-                <label for="adresse">Adresse</label>
-                <input type="adresse" class="form-control" id="adresse" name="adresse" 
+                <label for="adresse_f">Adresse</label>
+                <input type="text" class="form-control" id="adresse" name="adresse_f" 
                 placeholder="Saisissez votre adresse" >        
             </div>
 
             <div class="form-group">
-                <label for="tel">Téléphone</label>
-                <input type="tel" class="form-control" id="tel" name="tel"  
+                <label for="tel_f">Téléphone</label>
+                <input type="text" class="form-control" id="tel" name="tel_f"  
                 placeholder="Saisissez votre téléphone" >        
             </div>
 
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" name="email" 
+                <label for="mail_f">Email</label>
+                <input type="email" class="form-control" id="email" name="mail_f" 
                 placeholder="Saisissez votre Email" >        
             </div>
 
             <div class="form-group">
-                <label for="cin">Cin</label>
-                <input type="cin" class="form-control" id="cin" name="cin" 
+                <label for="cin_f">Cin</label>
+                <input type="text" class="form-control" id="cin" name="cin_f" 
                 placeholder="Saisissez votre cin" >        
             </div>
 
             <div class="form-group">
-                <label for="cv">CV</label>
-                <input type="file" id="cv" name="cv"
+                <label for="cv_f">CV</label>
+                <input type="file" id="cv" name="cv_f"
                 accept="image/png, image/jpeg">
            </div>
             
 
             <div class="mt-4">
-                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Ajouter</button>
+                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Envoyer</button>
             </div>
 
             

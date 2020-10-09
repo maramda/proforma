@@ -8,6 +8,6 @@ $demandeformation = new Demande(
    
 $demandeformation->ajouter();
 
-header("location:../index.php?resultat=oui");
+header("location:../acceuil.php?resultat=oui");
 //exit();
 ?>

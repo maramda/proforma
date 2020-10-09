@@ -29,7 +29,7 @@
                                 </center>
                                 <center id="fb">
                                  <a href="https://twitter.com" class="icon-button twitter" target="_blank"><i class="icon-twitter"></i><span></span></a>
-                                 <a href="https://www.facebook.com/Fromage-Fiore-344785575533009/" class="icon-button facebook" target="_blank"><i class="icon-facebook"></i><span></span></a>
+                                 <a href="https://www.facebook.com/Fromage-ProForma-344785575533009/" class="icon-button facebook" target="_blank"><i class="icon-facebook"></i><span></span></a>
                                  <a href="https://plus.google.com" class="icon-button google-plus" target="_blank"><i class="icon-google-plus"></i><span>
                                      
                                  </span>
@@ -43,7 +43,7 @@
 						
 						<div class="row">
 							<div class="col-sm-4 col-sm-offset-4 pad-v text-center">
-								<img alt="logo" data-src="images/logo-Fiore-fr-foncé-footer.png" class="img-responsive1 lazy" srcset="images/logo-Fiore-fr-foncé-footer.png 1x, images/logo-Fiore-fr-foncé-footer.png 2x">
+								<img alt="logo" data-src="images/logo-ProForma-fr-foncé-footer.png" class="img-responsive1 lazy" srcset="images/logo-ProForma-fr-foncé-footer.png 1x, images/logo-ProForma-fr-foncé-footer.png 2x">
 							</div>
 						</div>
 						

@@ -4,7 +4,7 @@
                 <li class="menu-title">Menu</li>
 
                 <li>
-                    <a href="index.php" class="waves-effect">
+                    <a href="acceuil.php" class="waves-effect">
                         <i class="bx bx-home-circle"></i><span class="badge badge-pill badge-info float-right"></span>
                         <span>Dashboard</span>
                     </a>

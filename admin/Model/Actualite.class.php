@@ -19,7 +19,7 @@ $this->lien = addslashes($lien);
 
 public function ajouter(){ 
 
-  include('../includes/connect_db.php');
+  require_once('../Modele/connexion_db.php');
 
 
 
@@ -38,7 +38,7 @@ public function ajouter(){
 
     public function modifier(){ 
 
-    include('../includes/connect_db.php');
+      require_once('../Modele/connexion_db.php');
 
     $id=$_GET['id'];
         
@@ -53,7 +53,7 @@ public function ajouter(){
 
 public function supprimer(){ 
     
-	include('../includes/connect_db.php');
+  require_once('../Modele/connexion_db.php');
 
     $req = $bdd->exec('DELETE FROM `actualite` WHERE id=\''.$_GET['id'].'\''); 
  

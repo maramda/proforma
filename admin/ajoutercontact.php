@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['id'])) {
-header('Location:login.php');
+header('Location:index.php');
 }else{
 ?>
 <!doctype html>

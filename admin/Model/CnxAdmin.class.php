@@ -30,11 +30,11 @@ public function verifier(){
       
        $_SESSION['login'] = $resultat['login'];
        $_SESSION['password'] = $resultat['password'];
-       $_SESSION['email'] = $resultat['email'];
+       
        
        
 	   
-	header('location:../index.php');
+	header('location:../acceuil.php');
 
 
 } 
