@@ -94,7 +94,7 @@ $req4 = $bdd->query("SELECT * FROM galerie");
                                         <li><a class="page-scroll" href="#formation">Formation</a></li>
                                         <li><a class="page-scroll" href="#section-testimonial">Galerie</a></li>
                                         <li><a class="page-scroll" href="#section-formateur">Formateur</a></li>
-                                        <li><a class="page-scroll"  href="#section-contact">Services</a></li>
+                                        <li><a class="page-scroll"  href="#section-contact">Contact</a></li>
                                       
 
                 </ul>
