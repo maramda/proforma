@@ -22,7 +22,7 @@ $req4 = $bdd->query("SELECT * FROM galerie");
 		<meta name="description" content="ProForma">
 		<meta name="keywords" content="ProForma">
 		<meta name="author" content="cmsden">
-		<link rel="shortcut icon" type="image/jpg" href="images/336976.png">
+		<link rel="shortcut icon" type="image/PF.png" href="images/PF.png">
       
 
         <!-- ==============================================
@@ -33,10 +33,10 @@ $req4 = $bdd->query("SELECT * FROM galerie");
         <!-- ==============================================
         Favicons
         =============================================== -->
-        <link rel="shortcut icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="72x72" type="image/jpg" href="images/336976.png">
-        <link rel="apple-touch-icon" sizes="114x114" type="image/jpg" href="images/336976.png">
+        <link rel="shortcut icon" type="image/jpPF.png" href="images/PF.png">
+        <link rel="apple-touch-icon" type="image/PF.png" href="images/PF.png">
+        <link rel="apple-touch-icon" sizes="72x72" type="image/PF.png" href="images/PF.png">
+        <link rel="apple-touch-icon" sizes="114x114" type="image/PF.png" href="images/PF.png">
 
         <!-- ==============================================
         Fonts

@@ -18,10 +18,6 @@
 <label for="nomm">Nom  :</label>
 <input type="text" name="nomm" id="nom" required="required"/> 
 <br> <br>
-
-<label for="prenom_u">Prénom :</label>
-<input type="text" name="prenom_u" id="prenom" required="required"/> 
-<br> <br>
 	
 <label for="nom_u">Nom utilisateur :</label>
 <input type="text" name="nom_u" id="nom_user" required="required"/> 
