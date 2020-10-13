@@ -25,12 +25,12 @@ session_start();
 </br> </br> </br>
 
 <form action = "Vue/Verifier_connexion.php" method="post">
-<label for="nom">Nom utilisateur :</label>
-<input type="text" name="nom" id="nom_user" required="required" /> 
+<label for="login">Nom utilisateur :</label>
+<input type="text" name="login" id="login" required="required" /> 
 <br> <br>
 
-<label for="mdp">Mot de passe :</label>
-<input type="password" name="mdp" id="motdepasse" required="required" /> 
+<label for="password">Mot de passe :</label>
+<input type="password" name="password" id="password" required="required" /> 
 <br> <br>
 <button id="connecter" type="submit"> Connecter </button>
 <br> <br><br>

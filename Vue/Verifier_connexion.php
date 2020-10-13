@@ -4,18 +4,18 @@
 require_once('../Model/connexion_db.php');
 session_start();
 
-$nom = $_POST['nom'] ;
-$motdepasse= $_POST['mdp'];
+$login = $_POST['login'] ;
+$password= $_POST['password'];
 
-$sql = $connexion->query("SELECT * from utilisateur WHERE nom_utilisateur = '$nom' and mdp = '$motdepasse'");
+$sql = $connexion->query("SELECT * from utilisateur WHERE login = '$login' and password = '$password'");
 
-if($result = $sql->fetch() and $result['nom_utilisateur'] == $nom and $result['mdp'] == $motdepasse ) {
+if($result = $sql->fetch() and $result['login'] == $nom and $result['password'] == $password ) {
     session_start();
-    $_SESSION["username"]= $_POST['nom'] ;
-    $_SESSION["motdepasse"]= $_POST['mdp'];
+    $_SESSION["login"]= $_POST['login'] ;
+    $_SESSION["password"]= $_POST['password'];
 
 
-if ($nom == 'admin' && $motdepasse == 'admin')
+if ($login == 'admin' && $password == 'admin')
     {
        header("location: ../partieclient/acceuil.php");
     }

@@ -1,19 +1,20 @@
 
 <?php 
 
-require_once('../Model/connexion_db.php');
+ require_once('../Modele/connexion_db.php');
 
-if (isset($_POST['nomm']) && isset($_POST['nom_u'])  && isset($_POST['mdp'])  
-	&& isset($_POST['mail_u']) && isset($_POST['type']))
+if (isset($_POST['nomm'])  && isset($_POST['login_u'])  && isset($_POST['password_u'])  
+	&& isset($_POST['mail_u']) && isset($_POST['type_u']) )
 {
 
 	$nomm = $_POST['nomm'];
+	$login_u = $_POST['login_u'];
 	
-	$nom_u = $_POST['nom_u'];
-	$mdp = $_POST['mdp'];
+	$password_u = $_POST['password_u'];
 	$mail_u = $_POST['mail_u'];
-	$type = $_POST['type'];
-	$sql = "INSERT INTO utilisateur(nom,  nom_utilisateur, mdp, mail, type) VALUES ('$nomm','$nom_u','$mdp','$mail_u','$type')";
+    $type_u = $_POST['type_u'];
+    
+	$sql = "INSERT INTO utilisateur(nom, login, password, mail, type) VALUES ('$nomm','$login_u','$password_u','$mail_u','$type_u')";
 	$connexion->query($sql); 
 
 }

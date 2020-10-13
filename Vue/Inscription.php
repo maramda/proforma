@@ -20,19 +20,19 @@
 <br> <br>
 
 	
-<label for="nom_u">Nom utilisateur :</label>
-<input type="text" name="nom_u" id="nom_user" required="required"/> 
+<label for="login_u">Nom utilisateur :</label>
+<input type="text" name="login_u" id="login" required="required"/> 
 <br> <br>
 
-<label for="mdp">Mot de passe :</label>
-<input type="text" name="mdp" id="motdepasse" required="required" /> 
+<label for="password_u">Mot de passe :</label>
+<input type="text" name="password_u" id="password" required="required" /> 
 <br> <br>
 
 <label for="mail_u">Mail :</label>
 <input type="text" name="mail_u" id="mail" required="required"/> 
 <br> <br>
-<label for="mail_u">Type :</label>
-<SELECT name="type" size="1">
+<label for="type_u">Type :</label>
+<SELECT name="type_u" size="1">
 <OPTION>entreprise
 <OPTION>condidature
 </SELECT>
