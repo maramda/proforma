@@ -631,6 +631,188 @@ $req4 = $bdd->query("SELECT * FROM gallary");
                                 </div>
                             </div>
 							
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>New Sil </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>SODIMAC </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Golden Tulip </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Topx peintures </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Cogitel </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>manifacture de panneaux bois du sud </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>CERAM </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>EMS groupe hammami </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Polyclinique Errachid </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Hammami pour le batiment </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Export Frigoconfort </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/SCPC.png" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>SCPC Chimie </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>Sofpince </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xm-12">
+                                
+                                <div class="latest-b-post">
+                                    <div class="latest-b-image">
+                                      <img src="images/blog/Sonotrak.jpg" class="img-responsive" alt="blog-image"> </div>
+                                    <!-- blog-headline -->
+                                    <div class="blog-headline">
+                                        <h4>SOFAP </h4>
+                                    </div>
+                                   
+                                    
+                                </div>
+                            </div>
 												                            <!-- blog end -->
                            
                            

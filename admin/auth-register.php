@@ -60,18 +60,15 @@
                 
                                         <div class="form-group">
                                             <label for="username">Nom d'utilisateur</label>
-                                            <input type="text" class="form-control" id="username"  name="login" placeholder="Saisissez votre nom d'utilisateur">
+                                            <input type="text" class="form-control" id="username"  name="username" placeholder="Saisissez votre nom d'utilisateur">
                                         </div>
                 
                                         <div class="form-group">
-                                            <label for="userpassword">Mot de passe</label>
-                                            <input type="password" class="form-control" id="userpassword" name="password"  placeholder="Saisissez votre Mot de passe">        
+                                            <label for="mdp">Mot de passe</label>
+                                            <input type="password" class="form-control" id="mdp" name="mdp"  placeholder="Saisissez votre Mot de passe">        
                                         </div>
 
-                                        <div class="form-group">
-                                            <label for="useremail">Email</label>
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Saisissez votre Email">        
-                                        </div>
+         
                     
                                         <div class="mt-4">
                                             <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">S'inscrire</button>
