@@ -1,11 +1,11 @@
 <?php
  $serveur = 'localhost' ; 
- $nom_utilisateur = 'root'; 
- $mdp= '';  
+ $login = 'root'; 
+ $password= '';  
 
  try 
  {  
-    $connexion = new PDO('mysql:host=localhost;dbname=proforma',$nom_utilisateur,$mdp);
+    $connexion = new PDO('mysql:host=localhost;dbname=proforma',$login,$password);
      //echo "Connexion au data base tdw réussie ";
  }  
 catch (PDOException $e)

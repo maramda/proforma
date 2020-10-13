@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,13 +18,14 @@
 <input type="text" name="nomm" id="nom" required="required"/> 
 <br> <br>
 
+
 	
-<label for="login_u">Nom utilisateur :</label>
-<input type="text" name="login_u" id="login" required="required"/> 
+<label for="login">Nom utilisateur :</label>
+<input type="text" name="login" id="login" required="required"/> 
 <br> <br>
 
-<label for="password_u">Mot de passe :</label>
-<input type="text" name="password_u" id="password" required="required" /> 
+<label for="password">Mot de passe :</label>
+<input type="text" name="password" id="password" required="required" /> 
 <br> <br>
 
 <label for="mail_u">Mail :</label>

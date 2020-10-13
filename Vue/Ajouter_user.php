@@ -1,25 +1,22 @@
-
 <?php 
 
- require_once('../Modele/connexion_db.php');
+ require_once('../Model/connexion_db.php');
 
-if (isset($_POST['nomm'])  && isset($_POST['login_u'])  && isset($_POST['password_u'])  
+if (isset($_POST['nomm'])  && isset($_POST['login'])  && isset($_POST['password'])  
 	&& isset($_POST['mail_u']) && isset($_POST['type_u']) )
 {
 
 	$nomm = $_POST['nomm'];
-	$login_u = $_POST['login_u'];
+	$login = $_POST['login'];
 	
-	$password_u = $_POST['password_u'];
+	$password = $_POST['password'];
 	$mail_u = $_POST['mail_u'];
     $type_u = $_POST['type_u'];
     
-	$sql = "INSERT INTO utilisateur(nom, login, password, mail, type) VALUES ('$nomm','$login_u','$password_u','$mail_u','$type_u')";
+	$sql = "INSERT INTO utilisateur (nom, login, password, mail, type) VALUES ('$nomm','$login','$password','$mail_u','$type_u')";
 	$connexion->query($sql); 
 
 }
 
 
 header("location: Inscription.php");
-
-?>
