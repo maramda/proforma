@@ -9,7 +9,7 @@ $password= $_POST['password'];
 
 $sql = $connexion->query("SELECT * from utilisateur WHERE login = '$login' and password = '$password'");
 
-if($result = $sql->fetch() and $result['login'] == $nom and $result['password'] == $password ) {
+if($result = $sql->fetch() and $result['login'] == $login and $result['password'] == $password ) {
     session_start();
     $_SESSION["login"]= $_POST['login'] ;
     $_SESSION["password"]= $_POST['password'];
